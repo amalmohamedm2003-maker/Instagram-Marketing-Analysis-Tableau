@@ -1,0 +1,321 @@
+post_id,timestamp,media_type,caption,like_count,comment_count,reach,impressions,saves,shares,profile_visits,follows
+post_1,2024-01-01T09:17:00,image,Photo drop #1 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,1244,33,20587,21075,75,39,100,11
+post_2,2024-01-02T22:03:00,image,Photo drop #2 | Outfit Reel | Full outfit try-on from our latest launch.,2014,199,54036,54854,48,17,15,14
+post_3,2024-01-03T21:05:00,carousel,Carousel lookbook #3 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,636,9,14210,15059,97,14,26,3
+post_4,2024-01-04T19:09:00,image,Photo drop #4 | New Drop | New arrival from our summer collection. Limited pieces only.,1810,158,59175,59546,89,7,93,11
+post_5,2024-01-05T17:51:00,reel,Reel #5 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,2837,186,79730,79842,68,44,126,22
+post_6,2024-01-06T17:40:00,carousel,"Carousel lookbook #6 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",3170,207,86551,87034,105,8,61,24
+post_7,2024-01-07T22:05:00,reel,Reel #7 | Behind the Scenes | Behind the scenes from today’s studio shoot.,1707,188,29376,30043,115,15,131,13
+post_8,2024-01-08T18:49:00,reel,Reel #8 | New Drop | New arrival from our summer collection. Limited pieces only.,1085,33,33972,34085,61,21,118,18
+post_9,2024-01-09T17:46:00,image,Photo drop #9 | Behind the Scenes | Behind the scenes from today’s studio shoot.,2066,62,105154,105749,26,12,128,13
+post_10,2024-01-10T21:29:00,image,Photo drop #10 | New Drop | New arrival from our summer collection. Limited pieces only.,901,163,18117,18238,50,34,84,14
+post_11,2024-01-11T19:26:00,image,Photo drop #11 | Style Tip | How to style this piece three different ways.,501,180,13912,14736,21,11,125,1
+post_12,2024-01-12T21:34:00,reel,Reel #12 | Style Tip | How to style this piece three different ways.,4308,197,37728,38158,69,60,23,25
+post_13,2024-01-13T17:21:00,reel,"Reel #13 | Customer Review | Styled by our customer community—real people, real fits.",332,70,8897,9062,35,40,75,24
+post_14,2024-01-14T10:52:00,carousel,Carousel lookbook #14 | New Drop | New arrival from our summer collection. Limited pieces only.,3321,154,109956,110369,34,31,114,12
+post_15,2024-01-15T11:34:00,reel,Reel #15 | Casual Look | Everyday casual fit you can wear on repeat.,715,55,23751,24293,14,13,131,22
+post_16,2024-01-16T09:22:00,reel,Reel #16 | Workwear | Workwear that feels like loungewear but looks like power dressing.,1566,131,21824,22086,81,26,147,17
+post_17,2024-01-17T17:08:00,reel,Reel #17 | Casual Look | Everyday casual fit you can wear on repeat.,651,171,20862,21192,91,28,38,9
+post_18,2024-01-18T17:15:00,image,"Photo drop #18 | Customer Review | Styled by our customer community—real people, real fits.",1151,101,20451,21063,14,14,144,7
+post_19,2024-01-19T21:57:00,image,Photo drop #19 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,1868,229,35322,35509,124,35,36,11
+post_20,2024-01-20T17:34:00,image,Photo drop #20 | Casual Look | Everyday casual fit you can wear on repeat.,874,166,31004,31852,71,5,80,23
+post_21,2024-01-21T22:53:00,carousel,Carousel lookbook #21 | Workwear | Workwear that feels like loungewear but looks like power dressing.,3006,210,43906,44519,42,6,141,11
+post_22,2024-01-22T20:37:00,image,Photo drop #22 | New Drop | New arrival from our summer collection. Limited pieces only.,2125,162,60686,61471,77,31,106,7
+post_23,2024-01-23T21:28:00,reel,Reel #23 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,1434,170,15480,16004,88,58,82,6
+post_24,2024-01-24T22:35:00,reel,"Reel #24 | Customer Review | Styled by our customer community—real people, real fits.",667,132,8866,9237,114,38,29,13
+post_25,2024-01-25T09:37:00,reel,Reel #25 | Behind the Scenes | Behind the scenes from today’s studio shoot.,679,150,19600,19948,106,38,83,15
+post_26,2024-01-26T18:36:00,reel,Reel #26 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,2498,167,63520,63965,14,18,46,1
+post_27,2024-01-27T15:42:00,reel,Reel #27 | Outfit Reel | Full outfit try-on from our latest launch.,3124,212,35275,35856,111,18,98,12
+post_28,2024-01-28T12:38:00,image,Photo drop #28 | Workwear | Workwear that feels like loungewear but looks like power dressing.,2668,95,32760,33188,66,21,31,9
+post_29,2024-01-29T13:10:00,reel,"Reel #29 | Customer Review | Styled by our customer community—real people, real fits.",2119,18,27900,28508,30,17,26,9
+post_30,2024-01-30T17:10:00,carousel,Carousel lookbook #30 | Casual Look | Everyday casual fit you can wear on repeat.,1042,94,42044,42622,38,24,150,3
+post_31,2024-01-31T10:28:00,carousel,Carousel lookbook #31 | Casual Look | Everyday casual fit you can wear on repeat.,2757,87,64881,65514,15,32,119,15
+post_32,2024-02-01T10:03:00,carousel,Carousel lookbook #32 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,2233,161,70485,70742,80,13,64,7
+post_33,2024-02-02T12:02:00,image,Photo drop #33 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,454,117,6720,6831,62,25,22,2
+post_34,2024-02-03T12:46:00,reel,Reel #34 | Behind the Scenes | Behind the scenes from today’s studio shoot.,1313,122,19382,19771,134,34,69,17
+post_35,2024-02-04T09:47:00,reel,Reel #35 | Outfit Reel | Full outfit try-on from our latest launch.,3054,93,83148,83475,105,45,115,18
+post_36,2024-02-05T12:24:00,image,Photo drop #36 | Workwear | Workwear that feels like loungewear but looks like power dressing.,285,76,6762,7349,17,11,46,15
+post_37,2024-02-06T22:22:00,carousel,"Carousel lookbook #37 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",278,172,9168,9629,60,38,69,13
+post_38,2024-02-07T09:06:00,carousel,Carousel lookbook #38 | Style Tip | How to style this piece three different ways.,2847,98,50960,51859,101,18,113,6
+post_39,2024-02-08T15:08:00,reel,Reel #39 | Outfit Reel | Full outfit try-on from our latest launch.,162,53,2820,3258,10,10,52,8
+post_40,2024-02-09T16:27:00,image,Photo drop #40 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,407,21,8736,8953,72,9,49,22
+post_41,2024-02-10T09:22:00,reel,Reel #41 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,1649,98,46158,46607,135,18,37,22
+post_42,2024-02-11T09:18:00,reel,Reel #42 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,2396,98,27630,27789,117,11,43,8
+post_43,2024-02-12T13:15:00,image,Photo drop #43 | Casual Look | Everyday casual fit you can wear on repeat.,125,147,3813,4343,78,27,109,21
+post_44,2024-02-13T11:54:00,reel,Reel #44 | New Drop | New arrival from our summer collection. Limited pieces only.,2997,91,95756,96176,6,29,144,25
+post_45,2024-02-14T09:41:00,reel,Reel #45 | Style Tip | How to style this piece three different ways.,2036,63,58450,59005,22,45,65,13
+post_46,2024-02-15T19:43:00,image,Photo drop #46 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,1337,134,40362,41258,92,29,56,13
+post_47,2024-02-16T09:16:00,carousel,Carousel lookbook #47 | New Drop | New arrival from our summer collection. Limited pieces only.,950,66,29640,29928,21,13,40,9
+post_48,2024-02-17T10:57:00,image,"Photo drop #48 | Customer Review | Styled by our customer community—real people, real fits.",441,88,13376,13609,46,36,38,20
+post_49,2024-02-18T13:33:00,carousel,Carousel lookbook #49 | Style Tip | How to style this piece three different ways.,3374,51,83196,83589,126,32,127,8
+post_50,2024-02-19T09:05:00,image,"Photo drop #50 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",514,113,20787,21254,27,11,114,1
+post_51,2024-02-20T15:13:00,image,Photo drop #51 | New Drop | New arrival from our summer collection. Limited pieces only.,1773,37,36560,36838,71,19,122,6
+post_52,2024-02-21T21:56:00,reel,Reel #52 | Behind the Scenes | Behind the scenes from today’s studio shoot.,583,17,8470,9152,83,30,28,21
+post_53,2024-02-22T19:34:00,carousel,Carousel lookbook #53 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,2164,131,69550,70327,75,6,52,10
+post_54,2024-02-23T13:56:00,image,Photo drop #54 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,1105,148,16796,17328,15,13,58,22
+post_55,2024-02-24T09:35:00,image,Photo drop #55 | Style Tip | How to style this piece three different ways.,2559,69,78360,79043,78,48,108,3
+post_56,2024-02-25T22:55:00,image,Photo drop #56 | Style Tip | How to style this piece three different ways.,3409,27,94031,94449,14,28,24,5
+post_57,2024-02-26T22:41:00,carousel,Carousel lookbook #57 | Style Tip | How to style this piece three different ways.,492,166,14715,15445,81,36,61,21
+post_58,2024-02-27T19:25:00,reel,Reel #58 | Style Tip | How to style this piece three different ways.,765,26,13356,13611,143,18,92,12
+post_59,2024-02-28T17:26:00,carousel,Carousel lookbook #59 | Behind the Scenes | Behind the scenes from today’s studio shoot.,1383,119,33306,33952,78,41,38,1
+post_60,2024-02-29T18:38:00,carousel,Carousel lookbook #60 | Outfit Reel | Full outfit try-on from our latest launch.,2421,32,98912,99682,39,41,137,1
+post_61,2024-03-01T14:18:00,reel,"Reel #61 | Customer Review | Styled by our customer community—real people, real fits.",1695,187,46224,46527,34,7,110,2
+post_62,2024-03-02T18:06:00,reel,"Reel #62 | Customer Review | Styled by our customer community—real people, real fits.",2779,75,38745,39518,127,11,74,19
+post_63,2024-03-03T15:08:00,carousel,Carousel lookbook #63 | Style Tip | How to style this piece three different ways.,3058,201,61451,62193,104,49,100,11
+post_64,2024-03-04T18:40:00,reel,Reel #64 | Behind the Scenes | Behind the scenes from today’s studio shoot.,1821,155,39078,39418,22,7,147,23
+post_65,2024-03-05T21:09:00,reel,Reel #65 | New Drop | New arrival from our summer collection. Limited pieces only.,1120,68,17350,18151,90,23,78,17
+post_66,2024-03-06T19:11:00,reel,Reel #66 | Casual Look | Everyday casual fit you can wear on repeat.,226,200,3384,3767,78,56,127,8
+post_67,2024-03-07T10:27:00,carousel,Carousel lookbook #67 | Workwear | Workwear that feels like loungewear but looks like power dressing.,1964,97,31374,32127,66,33,37,11
+post_68,2024-03-08T16:29:00,image,Photo drop #68 | Style Tip | How to style this piece three different ways.,297,102,10450,10878,38,41,136,24
+post_69,2024-03-09T21:52:00,carousel,"Carousel lookbook #69 | Customer Review | Styled by our customer community—real people, real fits.",1985,24,27976,28205,162,57,66,22
+post_70,2024-03-10T22:30:00,reel,Reel #70 | New Drop | New arrival from our summer collection. Limited pieces only.,3132,75,49472,49937,150,45,33,12
+post_71,2024-03-11T12:50:00,image,Photo drop #71 | Style Tip | How to style this piece three different ways.,2338,36,115536,115646,79,33,146,14
+post_72,2024-03-12T15:45:00,reel,Reel #72 | Style Tip | How to style this piece three different ways.,1042,60,32967,33301,55,34,140,4
+post_73,2024-03-13T15:04:00,reel,Reel #73 | Casual Look | Everyday casual fit you can wear on repeat.,2026,38,44766,45129,20,12,109,6
+post_74,2024-03-14T12:05:00,image,Photo drop #74 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,1905,113,84151,84982,10,28,28,4
+post_75,2024-03-15T13:32:00,reel,Reel #75 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,1837,123,54797,54961,58,17,45,1
+post_76,2024-03-16T16:25:00,carousel,"Carousel lookbook #76 | Customer Review | Styled by our customer community—real people, real fits.",358,80,8415,8838,57,17,96,20
+post_77,2024-03-17T16:23:00,image,Photo drop #77 | Casual Look | Everyday casual fit you can wear on repeat.,327,157,6264,6576,59,23,136,18
+post_78,2024-03-18T12:54:00,reel,Reel #78 | Outfit Reel | Full outfit try-on from our latest launch.,1110,147,41670,42108,78,37,133,9
+post_79,2024-03-19T15:46:00,reel,Reel #79 | Style Tip | How to style this piece three different ways.,2055,147,36372,37097,55,32,150,5
+post_80,2024-03-20T12:49:00,image,Photo drop #80 | Outfit Reel | Full outfit try-on from our latest launch.,1876,139,78432,79225,85,21,75,25
+post_81,2024-03-21T13:11:00,carousel,Carousel lookbook #81 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,2082,30,71331,71991,15,30,134,23
+post_82,2024-03-22T19:59:00,image,Photo drop #82 | Outfit Reel | Full outfit try-on from our latest launch.,2251,54,35190,35601,85,18,56,15
+post_83,2024-03-23T13:39:00,image,"Photo drop #83 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",1219,106,24921,25623,107,8,94,25
+post_84,2024-03-24T12:39:00,reel,Reel #84 | New Drop | New arrival from our summer collection. Limited pieces only.,1256,66,30960,31697,131,19,98,2
+post_85,2024-03-25T10:15:00,image,"Photo drop #85 | Customer Review | Styled by our customer community—real people, real fits.",954,25,26052,26624,57,13,39,18
+post_86,2024-03-26T17:03:00,carousel,Carousel lookbook #86 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,577,119,12888,13231,47,14,130,25
+post_87,2024-03-27T11:37:00,reel,Reel #87 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,256,156,7208,7751,72,16,51,7
+post_88,2024-03-28T12:19:00,carousel,Carousel lookbook #88 | Workwear | Workwear that feels like loungewear but looks like power dressing.,2445,47,59157,59419,80,15,74,16
+post_89,2024-03-29T20:07:00,image,Photo drop #89 | Behind the Scenes | Behind the scenes from today’s studio shoot.,1212,13,38870,39706,122,40,74,18
+post_90,2024-03-30T19:51:00,image,"Photo drop #90 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",3263,41,60416,60773,131,38,83,8
+post_91,2024-03-31T11:39:00,image,Photo drop #91 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,193,35,6396,7021,53,42,33,6
+post_92,2024-04-01T16:20:00,carousel,Carousel lookbook #92 | Style Tip | How to style this piece three different ways.,2177,164,64804,65002,71,5,51,9
+post_93,2024-04-02T14:08:00,reel,Reel #93 | Workwear | Workwear that feels like loungewear but looks like power dressing.,1594,40,62468,63059,58,31,46,8
+post_94,2024-04-03T14:59:00,carousel,Carousel lookbook #94 | Behind the Scenes | Behind the scenes from today’s studio shoot.,1345,154,24300,24505,7,28,110,15
+post_95,2024-04-04T16:24:00,image,Photo drop #95 | Outfit Reel | Full outfit try-on from our latest launch.,1082,49,39744,40055,61,12,77,24
+post_96,2024-04-05T21:27:00,reel,Reel #96 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,1383,126,29602,30488,98,66,125,22
+post_97,2024-04-06T19:00:00,carousel,Carousel lookbook #97 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,3939,118,59856,60114,155,48,128,23
+post_98,2024-04-07T18:20:00,carousel,Carousel lookbook #98 | New Drop | New arrival from our summer collection. Limited pieces only.,2789,125,89276,90060,15,25,20,9
+post_99,2024-04-08T11:51:00,reel,Reel #99 | Outfit Reel | Full outfit try-on from our latest launch.,2421,58,53325,53672,82,12,59,21
+post_100,2024-04-09T13:50:00,reel,Reel #100 | Casual Look | Everyday casual fit you can wear on repeat.,2547,23,80457,81133,72,23,98,5
+post_101,2024-04-10T10:14:00,carousel,Carousel lookbook #101 | Workwear | Workwear that feels like loungewear but looks like power dressing.,1582,33,51566,51837,68,23,132,18
+post_102,2024-04-11T20:30:00,carousel,Carousel lookbook #102 | New Drop | New arrival from our summer collection. Limited pieces only.,534,102,8304,8879,91,26,41,17
+post_103,2024-04-12T16:02:00,carousel,"Carousel lookbook #103 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",1984,46,44523,44850,8,8,33,17
+post_104,2024-04-13T17:32:00,reel,Reel #104 | Casual Look | Everyday casual fit you can wear on repeat.,3404,125,58131,58563,87,24,147,20
+post_105,2024-04-14T12:52:00,image,Photo drop #105 | New Drop | New arrival from our summer collection. Limited pieces only.,2942,71,76024,76410,86,28,50,18
+post_106,2024-04-15T22:25:00,reel,Reel #106 | Outfit Reel | Full outfit try-on from our latest launch.,1842,72,21508,21989,140,28,108,4
+post_107,2024-04-16T18:28:00,image,Photo drop #107 | New Drop | New arrival from our summer collection. Limited pieces only.,1627,148,27795,28558,84,28,101,21
+post_108,2024-04-17T10:10:00,carousel,Carousel lookbook #108 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,1490,120,40830,41383,88,24,66,19
+post_109,2024-04-18T14:18:00,reel,"Reel #109 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",1316,146,44156,44777,89,29,55,15
+post_110,2024-04-19T16:33:00,image,Photo drop #110 | Outfit Reel | Full outfit try-on from our latest launch.,812,133,12780,13562,58,32,141,21
+post_111,2024-04-20T12:13:00,reel,Reel #111 | New Drop | New arrival from our summer collection. Limited pieces only.,1471,95,24450,25179,32,29,78,14
+post_112,2024-04-21T11:58:00,carousel,Carousel lookbook #112 | Casual Look | Everyday casual fit you can wear on repeat.,2345,140,45522,45627,18,56,73,22
+post_113,2024-04-22T11:15:00,image,Photo drop #113 | Workwear | Workwear that feels like loungewear but looks like power dressing.,1489,89,42504,43292,54,27,31,18
+post_114,2024-04-23T13:41:00,reel,Reel #114 | Outfit Reel | Full outfit try-on from our latest launch.,2948,134,64454,64889,39,30,24,6
+post_115,2024-04-24T21:27:00,carousel,"Carousel lookbook #115 | Customer Review | Styled by our customer community—real people, real fits.",2920,48,31936,32545,10,9,117,3
+post_116,2024-04-25T11:45:00,image,Photo drop #116 | Outfit Reel | Full outfit try-on from our latest launch.,1548,55,46345,46692,30,19,128,1
+post_117,2024-04-26T09:04:00,carousel,Carousel lookbook #117 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,2620,112,103650,103891,33,43,137,19
+post_118,2024-04-27T19:39:00,image,Photo drop #118 | Style Tip | How to style this piece three different ways.,3269,57,81444,81609,157,44,33,5
+post_119,2024-04-28T16:37:00,carousel,Carousel lookbook #119 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,3412,57,71880,72208,51,19,36,9
+post_120,2024-04-29T21:39:00,reel,Reel #120 | Style Tip | How to style this piece three different ways.,1792,105,16665,17462,60,42,107,4
+post_121,2024-04-30T12:32:00,reel,Reel #121 | New Drop | New arrival from our summer collection. Limited pieces only.,451,90,7580,8470,107,43,147,13
+post_122,2024-05-01T12:23:00,reel,Reel #122 | Workwear | Workwear that feels like loungewear but looks like power dressing.,1170,176,41034,41631,11,8,29,4
+post_123,2024-05-02T10:57:00,reel,Reel #123 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,1047,156,44448,45282,7,43,67,12
+post_124,2024-05-03T20:57:00,image,Photo drop #124 | Outfit Reel | Full outfit try-on from our latest launch.,3596,68,83028,83393,19,46,19,3
+post_125,2024-05-04T13:54:00,carousel,Carousel lookbook #125 | Style Tip | How to style this piece three different ways.,1631,150,52448,52894,27,15,133,22
+post_126,2024-05-05T11:50:00,carousel,Carousel lookbook #126 | Casual Look | Everyday casual fit you can wear on repeat.,3662,120,125244,126102,109,33,142,21
+post_127,2024-05-06T19:55:00,carousel,Carousel lookbook #127 | Behind the Scenes | Behind the scenes from today’s studio shoot.,1208,82,23577,24340,94,34,33,3
+post_128,2024-05-07T16:56:00,image,Photo drop #128 | Workwear | Workwear that feels like loungewear but looks like power dressing.,1676,63,67782,68198,44,36,86,22
+post_129,2024-05-08T17:37:00,carousel,Carousel lookbook #129 | New Drop | New arrival from our summer collection. Limited pieces only.,2453,34,98083,98882,23,12,137,14
+post_130,2024-05-09T11:42:00,reel,Reel #130 | Style Tip | How to style this piece three different ways.,1478,48,37260,37447,20,48,87,11
+post_131,2024-05-10T11:20:00,carousel,Carousel lookbook #131 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,1586,30,39930,40610,13,43,115,12
+post_132,2024-05-11T15:49:00,carousel,Carousel lookbook #132 | New Drop | New arrival from our summer collection. Limited pieces only.,1781,93,39336,39908,135,55,70,15
+post_133,2024-05-12T10:13:00,image,Photo drop #133 | Outfit Reel | Full outfit try-on from our latest launch.,2862,105,51014,51435,36,27,35,13
+post_134,2024-05-13T14:52:00,image,Photo drop #134 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,1928,44,29370,29766,68,3,71,15
+post_135,2024-05-14T15:10:00,reel,Reel #135 | Behind the Scenes | Behind the scenes from today’s studio shoot.,1603,23,40380,40932,39,4,25,12
+post_136,2024-05-15T13:53:00,image,Photo drop #136 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,2354,20,66744,67627,60,12,20,18
+post_137,2024-05-16T11:07:00,image,Photo drop #137 | Outfit Reel | Full outfit try-on from our latest launch.,2496,152,116963,117593,5,6,38,8
+post_138,2024-05-17T16:30:00,carousel,Carousel lookbook #138 | Casual Look | Everyday casual fit you can wear on repeat.,2725,118,57616,58426,71,42,39,1
+post_139,2024-05-18T22:44:00,carousel,Carousel lookbook #139 | Behind the Scenes | Behind the scenes from today’s studio shoot.,1970,205,35640,36501,137,78,19,18
+post_140,2024-05-19T11:11:00,image,Photo drop #140 | Behind the Scenes | Behind the scenes from today’s studio shoot.,1041,162,13584,14096,27,28,142,18
+post_141,2024-05-20T16:46:00,reel,Reel #141 | Outfit Reel | Full outfit try-on from our latest launch.,682,73,26055,26873,54,8,67,12
+post_142,2024-05-21T19:46:00,image,Photo drop #142 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,1803,178,54817,54953,109,45,131,8
+post_143,2024-05-22T12:54:00,reel,Reel #143 | Style Tip | How to style this piece three different ways.,3011,180,95355,95809,22,18,65,2
+post_144,2024-05-23T12:33:00,carousel,Carousel lookbook #144 | Casual Look | Everyday casual fit you can wear on repeat.,1065,55,29264,29786,46,16,41,1
+post_145,2024-05-24T13:35:00,reel,Reel #145 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,589,10,15925,16707,71,38,104,19
+post_146,2024-05-25T13:29:00,reel,Reel #146 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,1098,75,14880,15422,24,38,67,24
+post_147,2024-05-26T09:44:00,image,Photo drop #147 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,1046,38,24099,24516,112,33,83,19
+post_148,2024-05-27T11:19:00,carousel,Carousel lookbook #148 | Outfit Reel | Full outfit try-on from our latest launch.,2529,143,112650,112790,48,24,87,13
+post_149,2024-05-28T09:41:00,image,Photo drop #149 | Casual Look | Everyday casual fit you can wear on repeat.,363,95,7300,7665,14,37,70,2
+post_150,2024-05-29T17:57:00,carousel,"Carousel lookbook #150 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",2135,146,34034,34264,44,20,100,18
+post_151,2024-05-30T15:17:00,carousel,Carousel lookbook #151 | Outfit Reel | Full outfit try-on from our latest launch.,2783,61,67368,68059,73,34,77,1
+post_152,2024-05-31T11:59:00,reel,Reel #152 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,2921,24,77940,78331,96,7,65,16
+post_153,2024-06-01T11:57:00,carousel,"Carousel lookbook #153 | Customer Review | Styled by our customer community—real people, real fits.",2179,137,55195,55858,70,7,44,21
+post_154,2024-06-02T19:40:00,carousel,Carousel lookbook #154 | Outfit Reel | Full outfit try-on from our latest launch.,2833,136,39312,39936,91,35,135,10
+post_155,2024-06-03T20:34:00,carousel,"Carousel lookbook #155 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",1511,126,47840,48722,121,36,123,23
+post_156,2024-06-04T14:48:00,reel,Reel #156 | Workwear | Workwear that feels like loungewear but looks like power dressing.,420,36,13650,14317,26,44,89,16
+post_157,2024-06-05T10:17:00,reel,Reel #157 | Style Tip | How to style this piece three different ways.,725,58,28888,29353,27,30,32,21
+post_158,2024-06-06T21:42:00,image,"Photo drop #158 | Customer Review | Styled by our customer community—real people, real fits.",598,159,9592,10374,121,41,28,23
+post_159,2024-06-07T16:44:00,image,Photo drop #159 | Casual Look | Everyday casual fit you can wear on repeat.,1235,22,30744,31379,28,16,26,21
+post_160,2024-06-08T20:00:00,carousel,Carousel lookbook #160 | Outfit Reel | Full outfit try-on from our latest launch.,1204,133,21816,21953,145,36,137,13
+post_161,2024-06-09T14:11:00,reel,Reel #161 | New Drop | New arrival from our summer collection. Limited pieces only.,1003,165,20730,21361,29,29,31,25
+post_162,2024-06-10T19:34:00,image,Photo drop #162 | New Drop | New arrival from our summer collection. Limited pieces only.,3342,38,87949,88207,86,51,119,15
+post_163,2024-06-11T09:03:00,image,Photo drop #163 | Style Tip | How to style this piece three different ways.,778,9,31200,32087,28,16,147,25
+post_164,2024-06-12T22:52:00,image,Photo drop #164 | Behind the Scenes | Behind the scenes from today’s studio shoot.,3323,23,103240,103819,95,41,138,10
+post_165,2024-06-13T10:08:00,reel,Reel #165 | Workwear | Workwear that feels like loungewear but looks like power dressing.,1281,39,45360,45819,82,18,112,11
+post_166,2024-06-14T14:08:00,reel,Reel #166 | Style Tip | How to style this piece three different ways.,477,131,7440,8017,91,26,110,11
+post_167,2024-06-15T20:31:00,carousel,Carousel lookbook #167 | Style Tip | How to style this piece three different ways.,4778,184,38240,38528,116,58,111,24
+post_168,2024-06-16T16:33:00,reel,Reel #168 | Behind the Scenes | Behind the scenes from today’s studio shoot.,2557,210,73890,74221,121,51,101,22
+post_169,2024-06-17T15:05:00,reel,"Reel #169 | Customer Review | Styled by our customer community—real people, real fits.",1266,65,20767,21083,87,28,124,24
+post_170,2024-06-18T09:30:00,image,Photo drop #170 | Workwear | Workwear that feels like loungewear but looks like power dressing.,1548,21,22215,22778,10,23,38,13
+post_171,2024-06-19T17:08:00,reel,Reel #171 | Outfit Reel | Full outfit try-on from our latest launch.,1463,45,26586,27451,28,45,33,12
+post_172,2024-06-20T14:33:00,image,"Photo drop #172 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",1675,131,56848,57165,73,8,89,9
+post_173,2024-06-21T11:48:00,reel,Reel #173 | Behind the Scenes | Behind the scenes from today’s studio shoot.,3151,22,52248,52473,42,41,28,25
+post_174,2024-06-22T12:08:00,reel,"Reel #174 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",607,136,16170,16390,66,9,17,22
+post_175,2024-06-23T17:12:00,image,"Photo drop #175 | Customer Review | Styled by our customer community—real people, real fits.",2988,92,91770,92234,98,30,122,20
+post_176,2024-06-24T16:17:00,carousel,Carousel lookbook #176 | Style Tip | How to style this piece three different ways.,205,121,6336,6486,32,20,122,6
+post_177,2024-06-25T14:21:00,reel,Reel #177 | Outfit Reel | Full outfit try-on from our latest launch.,810,56,24876,25292,34,34,130,17
+post_178,2024-06-26T13:52:00,carousel,Carousel lookbook #178 | Casual Look | Everyday casual fit you can wear on repeat.,2625,113,69254,69729,85,21,28,24
+post_179,2024-06-27T21:23:00,carousel,Carousel lookbook #179 | New Drop | New arrival from our summer collection. Limited pieces only.,1312,190,14195,14447,137,6,32,5
+post_180,2024-06-28T12:14:00,carousel,Carousel lookbook #180 | Workwear | Workwear that feels like loungewear but looks like power dressing.,980,37,22504,23152,87,6,18,20
+post_181,2024-06-29T17:51:00,image,Photo drop #181 | Outfit Reel | Full outfit try-on from our latest launch.,766,140,16704,17431,40,45,62,2
+post_182,2024-06-30T10:30:00,carousel,"Carousel lookbook #182 | Customer Review | Styled by our customer community—real people, real fits.",1649,42,43173,43699,76,36,24,2
+post_183,2024-07-01T20:01:00,carousel,Carousel lookbook #183 | Casual Look | Everyday casual fit you can wear on repeat.,1907,226,61691,62477,100,30,23,16
+post_184,2024-07-02T20:38:00,carousel,"Carousel lookbook #184 | Customer Review | Styled by our customer community—real people, real fits.",2499,13,58940,59412,52,46,81,18
+post_185,2024-07-03T14:54:00,image,Photo drop #185 | New Drop | New arrival from our summer collection. Limited pieces only.,1846,10,46722,47276,6,34,131,21
+post_186,2024-07-04T17:59:00,image,Photo drop #186 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,1758,100,77850,78496,52,24,110,23
+post_187,2024-07-05T18:18:00,carousel,"Carousel lookbook #187 | Customer Review | Styled by our customer community—real people, real fits.",2861,105,112896,113277,108,33,65,25
+post_188,2024-07-06T18:10:00,carousel,"Carousel lookbook #188 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",330,72,8400,8599,114,45,85,3
+post_189,2024-07-07T13:20:00,carousel,Carousel lookbook #189 | Style Tip | How to style this piece three different ways.,1751,66,58408,58794,73,4,136,9
+post_190,2024-07-08T10:35:00,reel,Reel #190 | Outfit Reel | Full outfit try-on from our latest launch.,2068,22,30515,31373,96,33,37,17
+post_191,2024-07-09T18:17:00,image,Photo drop #191 | Outfit Reel | Full outfit try-on from our latest launch.,2576,59,76508,77094,16,26,19,1
+post_192,2024-07-10T16:39:00,reel,Reel #192 | Workwear | Workwear that feels like loungewear but looks like power dressing.,659,137,16044,16804,53,21,99,3
+post_193,2024-07-11T19:59:00,reel,"Reel #193 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",2909,167,55042,55412,138,21,40,12
+post_194,2024-07-12T17:17:00,reel,"Reel #194 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",1719,83,44870,45057,30,44,40,10
+post_195,2024-07-13T11:58:00,image,"Photo drop #195 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",2181,31,81190,81389,107,22,135,13
+post_196,2024-07-14T10:04:00,image,"Photo drop #196 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",1634,115,52760,52932,93,19,112,25
+post_197,2024-07-15T16:31:00,carousel,Carousel lookbook #197 | Workwear | Workwear that feels like loungewear but looks like power dressing.,1156,129,38836,39382,75,8,115,16
+post_198,2024-07-16T13:14:00,image,Photo drop #198 | Workwear | Workwear that feels like loungewear but looks like power dressing.,2261,129,104592,105199,45,3,132,17
+post_199,2024-07-17T18:32:00,reel,Reel #199 | Workwear | Workwear that feels like loungewear but looks like power dressing.,2795,38,87948,88434,16,46,81,2
+post_200,2024-07-18T09:01:00,carousel,Carousel lookbook #200 | Style Tip | How to style this piece three different ways.,1522,74,37395,38040,19,13,144,2
+post_201,2024-07-19T20:49:00,image,Photo drop #201 | Workwear | Workwear that feels like loungewear but looks like power dressing.,720,186,16520,16732,31,40,127,6
+post_202,2024-07-20T10:04:00,image,Photo drop #202 | New Drop | New arrival from our summer collection. Limited pieces only.,2016,64,22560,22935,25,20,95,3
+post_203,2024-07-21T13:31:00,image,Photo drop #203 | Style Tip | How to style this piece three different ways.,1281,115,40040,40614,106,38,65,3
+post_204,2024-07-22T13:07:00,image,"Photo drop #204 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",1013,74,19950,20193,83,5,123,13
+post_205,2024-07-23T20:49:00,reel,Reel #205 | Outfit Reel | Full outfit try-on from our latest launch.,2881,118,72238,72748,123,36,67,25
+post_206,2024-07-24T16:11:00,reel,Reel #206 | Behind the Scenes | Behind the scenes from today’s studio shoot.,1954,98,61272,61431,63,30,84,9
+post_207,2024-07-25T15:50:00,carousel,Carousel lookbook #207 | Outfit Reel | Full outfit try-on from our latest launch.,1216,37,43953,44099,24,40,78,6
+post_208,2024-07-26T16:21:00,carousel,Carousel lookbook #208 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,2628,115,64976,65584,50,21,129,11
+post_209,2024-07-27T16:51:00,carousel,Carousel lookbook #209 | Style Tip | How to style this piece three different ways.,1672,48,35148,35786,112,25,27,19
+post_210,2024-07-28T21:11:00,image,Photo drop #210 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,3194,41,83115,83227,133,64,130,24
+post_211,2024-07-29T19:20:00,image,Photo drop #211 | Behind the Scenes | Behind the scenes from today’s studio shoot.,3234,23,84600,85062,50,32,15,14
+post_212,2024-07-30T13:40:00,reel,"Reel #212 | Customer Review | Styled by our customer community—real people, real fits.",1200,157,17153,17844,48,14,51,9
+post_213,2024-07-31T10:07:00,reel,Reel #213 | Workwear | Workwear that feels like loungewear but looks like power dressing.,2623,166,80220,80489,100,21,73,21
+post_214,2024-08-01T20:30:00,carousel,Carousel lookbook #214 | New Drop | New arrival from our summer collection. Limited pieces only.,3879,12,69720,70415,92,50,103,1
+post_215,2024-08-02T11:28:00,image,Photo drop #215 | Behind the Scenes | Behind the scenes from today’s studio shoot.,739,166,32900,33772,52,33,77,14
+post_216,2024-08-03T21:43:00,image,Photo drop #216 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,2173,55,18420,18848,127,12,30,25
+post_217,2024-08-04T16:55:00,reel,"Reel #217 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",256,31,3520,4276,39,41,56,13
+post_218,2024-08-05T13:39:00,image,Photo drop #218 | Casual Look | Everyday casual fit you can wear on repeat.,1542,19,56070,56903,70,20,17,21
+post_219,2024-08-06T21:08:00,reel,Reel #219 | New Drop | New arrival from our summer collection. Limited pieces only.,3115,101,61875,62108,22,45,105,7
+post_220,2024-08-07T18:08:00,image,"Photo drop #220 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",2214,102,111850,111984,76,24,26,14
+post_221,2024-08-08T10:42:00,reel,Reel #221 | New Drop | New arrival from our summer collection. Limited pieces only.,1185,120,51250,51580,20,23,128,9
+post_222,2024-08-09T21:52:00,image,"Photo drop #222 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",1718,131,37056,37833,37,28,74,25
+post_223,2024-08-10T09:55:00,carousel,Carousel lookbook #223 | Workwear | Workwear that feels like loungewear but looks like power dressing.,737,83,22770,22967,12,32,149,11
+post_224,2024-08-11T15:12:00,image,Photo drop #224 | Casual Look | Everyday casual fit you can wear on repeat.,411,52,8903,9505,33,5,146,21
+post_225,2024-08-12T20:08:00,image,Photo drop #225 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,863,118,19590,19942,111,9,145,21
+post_226,2024-08-13T13:03:00,image,Photo drop #226 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,2171,34,68739,68867,25,20,58,8
+post_227,2024-08-14T16:26:00,reel,Reel #227 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,2637,33,37536,38129,58,45,113,4
+post_228,2024-08-15T21:51:00,image,Photo drop #228 | Behind the Scenes | Behind the scenes from today’s studio shoot.,3009,185,33255,33774,38,23,77,19
+post_229,2024-08-16T11:07:00,carousel,Carousel lookbook #229 | Outfit Reel | Full outfit try-on from our latest launch.,2247,100,66600,66779,25,49,101,15
+post_230,2024-08-17T10:13:00,reel,"Reel #230 | Customer Review | Styled by our customer community—real people, real fits.",1165,55,17666,18348,131,30,129,24
+post_231,2024-08-18T12:27:00,carousel,Carousel lookbook #231 | New Drop | New arrival from our summer collection. Limited pieces only.,673,163,11201,12038,32,51,116,16
+post_232,2024-08-19T21:55:00,image,Photo drop #232 | Workwear | Workwear that feels like loungewear but looks like power dressing.,273,161,3672,3996,27,37,29,18
+post_233,2024-08-20T20:16:00,image,Photo drop #233 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,3094,68,52560,53392,113,47,48,19
+post_234,2024-08-21T20:33:00,carousel,Carousel lookbook #234 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,1494,60,28391,28819,137,27,120,17
+post_235,2024-08-22T21:19:00,carousel,"Carousel lookbook #235 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",1077,14,17758,17955,49,25,53,3
+post_236,2024-08-23T10:03:00,reel,Reel #236 | Outfit Reel | Full outfit try-on from our latest launch.,2914,39,89339,89661,111,45,64,18
+post_237,2024-08-24T15:46:00,carousel,Carousel lookbook #237 | New Drop | New arrival from our summer collection. Limited pieces only.,453,17,6023,6502,71,49,50,6
+post_238,2024-08-25T20:50:00,carousel,Carousel lookbook #238 | Outfit Reel | Full outfit try-on from our latest launch.,3376,36,83104,83526,58,76,54,15
+post_239,2024-08-26T15:58:00,reel,"Reel #239 | Customer Review | Styled by our customer community—real people, real fits.",2867,9,53613,54243,77,39,76,13
+post_240,2024-08-27T13:51:00,reel,Reel #240 | Outfit Reel | Full outfit try-on from our latest launch.,1976,104,31374,32183,36,25,91,10
+post_241,2024-08-28T14:50:00,carousel,Carousel lookbook #241 | Casual Look | Everyday casual fit you can wear on repeat.,2432,7,35734,35872,89,7,42,23
+post_242,2024-08-29T15:33:00,reel,Reel #242 | Style Tip | How to style this piece three different ways.,3029,49,119664,119841,28,29,103,2
+post_243,2024-08-30T13:13:00,reel,Reel #243 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,3157,101,107457,107565,80,42,141,7
+post_244,2024-08-31T10:09:00,reel,Reel #244 | Style Tip | How to style this piece three different ways.,3709,67,78336,78796,24,55,120,9
+post_245,2024-09-01T15:07:00,carousel,Carousel lookbook #245 | Behind the Scenes | Behind the scenes from today’s studio shoot.,3166,156,56810,57065,94,43,146,22
+post_246,2024-09-02T10:02:00,reel,Reel #246 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,2071,159,66027,66739,55,39,96,13
+post_247,2024-09-03T11:33:00,image,Photo drop #247 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,223,20,3978,4405,30,6,117,16
+post_248,2024-09-04T14:26:00,reel,Reel #248 | Behind the Scenes | Behind the scenes from today’s studio shoot.,2052,163,85946,86360,6,21,53,25
+post_249,2024-09-05T18:10:00,image,"Photo drop #249 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",1929,146,29310,29443,24,22,117,21
+post_250,2024-09-06T13:05:00,image,Photo drop #250 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,2607,145,90744,91307,22,40,120,14
+post_251,2024-09-07T13:32:00,carousel,Carousel lookbook #251 | Casual Look | Everyday casual fit you can wear on repeat.,677,23,17670,18501,44,49,27,17
+post_252,2024-09-08T19:23:00,image,Photo drop #252 | Behind the Scenes | Behind the scenes from today’s studio shoot.,726,195,9315,9510,106,43,41,5
+post_253,2024-09-09T21:28:00,reel,Reel #253 | Workwear | Workwear that feels like loungewear but looks like power dressing.,290,130,8052,8470,108,63,34,1
+post_254,2024-09-10T19:46:00,carousel,Carousel lookbook #254 | Casual Look | Everyday casual fit you can wear on repeat.,1197,47,12992,13316,75,12,93,13
+post_255,2024-09-11T12:13:00,reel,Reel #255 | Style Tip | How to style this piece three different ways.,692,136,21070,21283,68,17,128,21
+post_256,2024-09-12T20:12:00,image,Photo drop #256 | Casual Look | Everyday casual fit you can wear on repeat.,1082,61,16422,16913,10,53,74,3
+post_257,2024-09-13T21:45:00,reel,Reel #257 | New Drop | New arrival from our summer collection. Limited pieces only.,1072,67,19569,20354,58,31,93,18
+post_258,2024-09-14T13:34:00,reel,Reel #258 | New Drop | New arrival from our summer collection. Limited pieces only.,1132,197,39000,39794,74,25,68,9
+post_259,2024-09-15T15:02:00,reel,Reel #259 | Casual Look | Everyday casual fit you can wear on repeat.,2010,212,26429,27226,10,58,100,9
+post_260,2024-09-16T22:24:00,carousel,Carousel lookbook #260 | New Drop | New arrival from our summer collection. Limited pieces only.,609,53,13167,13710,23,21,112,6
+post_261,2024-09-17T18:01:00,image,Photo drop #261 | New Drop | New arrival from our summer collection. Limited pieces only.,2074,34,68800,69174,7,31,19,16
+post_262,2024-09-18T16:52:00,carousel,Carousel lookbook #262 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,1938,9,70392,71167,34,9,123,10
+post_263,2024-09-19T22:09:00,carousel,"Carousel lookbook #263 | Customer Review | Styled by our customer community—real people, real fits.",2148,96,50680,51122,64,18,115,23
+post_264,2024-09-20T14:54:00,image,Photo drop #264 | New Drop | New arrival from our summer collection. Limited pieces only.,439,10,16974,17820,36,41,18,18
+post_265,2024-09-21T20:06:00,reel,Reel #265 | New Drop | New arrival from our summer collection. Limited pieces only.,3829,100,88298,88795,25,70,44,23
+post_266,2024-09-22T20:14:00,carousel,Carousel lookbook #266 | New Drop | New arrival from our summer collection. Limited pieces only.,1109,189,8895,9232,65,36,117,21
+post_267,2024-09-23T13:21:00,reel,Reel #267 | Casual Look | Everyday casual fit you can wear on repeat.,1192,162,41280,42097,67,33,111,15
+post_268,2024-09-24T19:38:00,carousel,"Carousel lookbook #268 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",2868,9,49125,49622,39,6,83,15
+post_269,2024-09-25T21:06:00,carousel,Carousel lookbook #269 | Behind the Scenes | Behind the scenes from today’s studio shoot.,1774,16,20740,21537,45,15,71,21
+post_270,2024-09-26T10:55:00,reel,"Reel #270 | Customer Review | Styled by our customer community—real people, real fits.",1009,76,41308,41674,18,38,77,14
+post_271,2024-09-27T21:36:00,image,Photo drop #271 | Workwear | Workwear that feels like loungewear but looks like power dressing.,1155,96,21164,21302,51,21,119,20
+post_272,2024-09-28T21:26:00,carousel,"Carousel lookbook #272 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",3793,51,54702,55415,146,51,83,16
+post_273,2024-09-29T09:23:00,carousel,Carousel lookbook #273 | Workwear | Workwear that feels like loungewear but looks like power dressing.,1122,107,36036,36462,33,15,18,16
+post_274,2024-09-30T13:29:00,reel,Reel #274 | Behind the Scenes | Behind the scenes from today’s studio shoot.,2384,145,34034,34171,40,44,32,7
+post_275,2024-10-01T21:17:00,image,"Photo drop #275 | Customer Review | Styled by our customer community—real people, real fits.",2470,110,43128,43785,7,32,93,17
+post_276,2024-10-02T14:57:00,carousel,Carousel lookbook #276 | Outfit Reel | Full outfit try-on from our latest launch.,371,100,13735,14143,71,22,142,4
+post_277,2024-10-03T11:51:00,carousel,Carousel lookbook #277 | Behind the Scenes | Behind the scenes from today’s studio shoot.,700,44,12103,12571,98,22,102,6
+post_278,2024-10-04T11:02:00,reel,Reel #278 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,1838,35,39620,40518,39,19,109,10
+post_279,2024-10-05T11:13:00,image,Photo drop #279 | Casual Look | Everyday casual fit you can wear on repeat.,732,52,14326,14818,21,45,57,23
+post_280,2024-10-06T20:28:00,image,"Photo drop #280 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",3322,140,33426,34240,145,55,26,18
+post_281,2024-10-07T16:12:00,reel,Reel #281 | Behind the Scenes | Behind the scenes from today’s studio shoot.,1319,166,31617,32201,50,8,56,15
+post_282,2024-10-08T12:38:00,carousel,Carousel lookbook #282 | Workwear | Workwear that feels like loungewear but looks like power dressing.,1700,48,54880,55370,43,28,59,18
+post_283,2024-10-09T13:26:00,image,Photo drop #283 | Workwear | Workwear that feels like loungewear but looks like power dressing.,1283,30,43494,43936,14,14,94,2
+post_284,2024-10-10T13:26:00,carousel,Carousel lookbook #284 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,2722,93,119664,120488,21,13,149,8
+post_285,2024-10-11T11:44:00,image,Photo drop #285 | Style Tip | How to style this piece three different ways.,1850,64,68470,68741,21,6,124,6
+post_286,2024-10-12T18:52:00,image,"Photo drop #286 | Customer Review | Styled by our customer community—real people, real fits.",777,129,26928,27128,70,9,122,10
+post_287,2024-10-13T18:29:00,reel,Reel #287 | Behind the Scenes | Behind the scenes from today’s studio shoot.,3043,78,94950,95412,7,53,25,18
+post_288,2024-10-14T20:58:00,carousel,Carousel lookbook #288 | Style Tip | How to style this piece three different ways.,2077,13,22256,22959,109,21,73,10
+post_289,2024-10-15T18:39:00,carousel,"Carousel lookbook #289 | Customer Review | Styled by our customer community—real people, real fits.",2799,136,42381,43058,99,45,84,23
+post_290,2024-10-16T22:31:00,reel,Reel #290 | New Drop | New arrival from our summer collection. Limited pieces only.,3353,182,72336,72650,122,47,34,18
+post_291,2024-10-17T09:29:00,reel,"Reel #291 | Customer Review | Styled by our customer community—real people, real fits.",445,65,6935,7229,82,4,23,11
+post_292,2024-10-18T14:23:00,reel,Reel #292 | Casual Look | Everyday casual fit you can wear on repeat.,1560,76,38998,39884,40,33,133,22
+post_293,2024-10-19T19:05:00,image,Photo drop #293 | Outfit Reel | Full outfit try-on from our latest launch.,3967,164,85878,86731,25,49,102,9
+post_294,2024-10-20T12:52:00,image,Photo drop #294 | Behind the Scenes | Behind the scenes from today’s studio shoot.,2042,171,43212,43802,14,32,150,16
+post_295,2024-10-21T16:00:00,carousel,"Carousel lookbook #295 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",2174,20,28155,28762,68,8,78,1
+post_296,2024-10-22T13:07:00,image,Photo drop #296 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,282,18,5420,5728,47,7,150,2
+post_297,2024-10-23T16:42:00,carousel,Carousel lookbook #297 | Behind the Scenes | Behind the scenes from today’s studio shoot.,1127,107,42240,42882,62,12,76,12
+post_298,2024-10-24T22:42:00,carousel,"Carousel lookbook #298 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",3843,209,37005,37880,11,22,127,7
+post_299,2024-10-25T11:35:00,image,"Photo drop #299 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",477,106,6330,7014,44,17,15,5
+post_300,2024-10-26T13:01:00,carousel,Carousel lookbook #300 | Workwear | Workwear that feels like loungewear but looks like power dressing.,1707,29,32872,33544,10,45,102,21
+post_301,2024-10-27T10:06:00,reel,Reel #301 | New Drop | New arrival from our summer collection. Limited pieces only.,3316,219,68352,69144,20,16,65,4
+post_302,2024-10-28T14:59:00,carousel,Carousel lookbook #302 | Behind the Scenes | Behind the scenes from today’s studio shoot.,2729,58,126450,126787,35,17,89,4
+post_303,2024-10-29T10:14:00,carousel,Carousel lookbook #303 | Sale Promo | Flash sale is live for 24 hours. Add to cart before it sells out.,2618,142,97818,98503,20,6,144,7
+post_304,2024-10-30T17:00:00,image,Photo drop #304 | Workwear | Workwear that feels like loungewear but looks like power dressing.,2292,8,89271,89616,61,7,41,23
+post_305,2024-10-31T16:28:00,carousel,Carousel lookbook #305 | Casual Look | Everyday casual fit you can wear on repeat.,966,43,32487,32949,58,5,90,24
+post_306,2024-11-01T14:16:00,image,"Photo drop #306 | Weekend Outfit | Weekend-ready outfit for brunch, movies or a coffee run.",2649,39,111182,111789,22,36,18,3
+post_307,2024-11-02T14:17:00,reel,Reel #307 | Workwear | Workwear that feels like loungewear but looks like power dressing.,2789,197,52304,52592,67,19,128,4
+post_308,2024-11-03T11:18:00,image,Photo drop #308 | Outfit Reel | Full outfit try-on from our latest launch.,1441,156,31080,31611,57,13,80,7
+post_309,2024-11-04T13:16:00,reel,Reel #309 | Casual Look | Everyday casual fit you can wear on repeat.,886,23,33067,33949,29,25,144,11
+post_310,2024-11-05T21:54:00,reel,Reel #310 | Festive Edit | Festive edit with rich fabrics and comfy silhouettes.,1100,60,31504,32366,91,20,92,21
+post_311,2024-11-06T17:23:00,carousel,Carousel lookbook #311 | New Drop | New arrival from our summer collection. Limited pieces only.,1882,145,33680,34573,82,21,24,10
+post_312,2024-11-07T20:11:00,reel,Reel #312 | Outfit Reel | Full outfit try-on from our latest launch.,567,60,12924,13807,32,17,81,5
+post_313,2024-11-08T16:56:00,image,Photo drop #313 | Style Tip | How to style this piece three different ways.,1725,152,70884,71527,87,36,96,3
+post_314,2024-11-09T09:58:00,image,"Photo drop #314 | Customer Review | Styled by our customer community—real people, real fits.",1091,165,37152,37873,106,40,22,4
+post_315,2024-11-10T20:24:00,image,Photo drop #315 | Workwear | Workwear that feels like loungewear but looks like power dressing.,2491,196,68667,69363,14,51,140,20
+post_316,2024-11-11T13:33:00,reel,Reel #316 | Workwear | Workwear that feels like loungewear but looks like power dressing.,2097,24,90400,90825,50,36,61,17
+post_317,2024-11-12T11:57:00,image,Photo drop #317 | Casual Look | Everyday casual fit you can wear on repeat.,2292,79,74240,74703,81,23,119,23
+post_318,2024-11-13T10:58:00,reel,Reel #318 | Casual Look | Everyday casual fit you can wear on repeat.,1844,12,70564,70845,52,37,114,4
+post_319,2024-11-14T18:54:00,reel,Reel #319 | Style Tip | How to style this piece three different ways.,1823,18,42579,43465,87,36,117,14
+post_320,2024-11-15T21:24:00,image,Photo drop #320 | Casual Look | Everyday casual fit you can wear on repeat.,3440,57,46557,47443,36,20,114,15
