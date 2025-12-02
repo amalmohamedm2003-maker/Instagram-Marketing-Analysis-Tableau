@@ -1,0 +1,93 @@
+TITLE: INSTAGRAM MARKETING ANALYTICS & PERFORMANCE DASHBOARD USING TABLEAU
+AUTHOR: AMAL MOHAMED M
+BASED ON REAL META (INSTAGRAM) ACCOUNT EXPORT DATA
+COMPLETE DOCUMENTATION FROM RAW JSON → DASHBOARD → INSIGHTS
+
+=====================================================================
+PHASE 1 – RAW META EXPORT → JSON PROCESSING → CLEAN DATASET PREPARATION
+
+The dataset for this project was taken directly from a real Instagram account by using the official Meta Account Download Tool. After requesting Instagram data, a ZIP file was received containing folders and JSON files. These JSON files were not in Excel/table format — meaning we had to manually extract and process them to make the data usable for analytics.
+
+This phase explains how the exported raw Meta data was transformed step-by-step into a structured dataset suitable for Tableau.
+
+Structure of the Meta Export Received
+
+The downloaded zip contained folders like:
+
+instagram_export/
+├─ posts/
+├─ media/
+├─ likes.json
+├─ comments.json
+├─ followers/
+├─ profile_information.json
+├─ saved_content/
+├─ stories/
+└─ account_history/
+
+Every component of an Instagram post exists separately.
+No spreadsheet. No direct summary. Everything is JSON logs.
+
+Example raw JSON for a post:
+
+{
+"media_id": "JP3489",
+"caption": "New Arrival ✨",
+"taken_at": "2024-03-10T17:21:04",
+"media_type": "image"
+}
+
+Likes stored separately:
+
+{ "media_id": "JP3489", "user": "abc" }
+
+Comments stored separately:
+
+{ "media_id": "JP3489", "text": "Beautiful!" }
+
+This demonstrates why preprocessing is required.
+To analyze engagement, we must merge everything under one row per post.
+
+JSON to DataFrame Conversion (Explained Simply)
+
+We loaded the JSON files into Python using Pandas.
+
+import pandas as pd, json
+
+posts = pd.read_json("posts.json")
+likes = pd.read_json("likes.json")
+comments = pd.read_json("comments.json")
+
+Merging process:
+
+likes_count = likes.groupby("media_id").size().rename("like_count")
+comments_count = comments.groupby("media_id").size().rename("comment_count")
+
+posts = posts.merge(likes_count, on="media_id", how="left")
+posts = posts.merge(comments_count, on="media_id", how="left")
+
+Timestamps were standardized:
+
+posts["timestamp"] = pd.to_datetime(posts["taken_at"])
+
+Final Dataset Column Structure
+
+The dataset was obtained directly from Meta and prepared for analytics.
+The final file used in Tableau contained columns:
+
+post_id
+timestamp
+caption
+media_type (image / reel / carousel)
+like_count
+comment_count
+save_count
+share_count
+reach
+impressions
+profile_visits
+follows
+engagement_rate (calculated later in Tableau)
+
+PHASE-1 RESULT:
+A clean, structured Instagram dataset created from raw JSON export, ready for analytics.
