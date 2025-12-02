@@ -1,0 +1,2157 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='CAMPAIGN BUDGET' datatype='real' name='[Parameter 1]' param-domain-type='any' role='measure' type='quantitative' value='20000.'>
+        <calculation class='tableau' formula='20000.' />
+      </column>
+    </datasource>
+    <datasource caption='posts_merged_tableau' inline='true' name='federated.0haq5he1yvxmse17vun171y80wj3' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='posts_merged_tableau' name='textscan.1d854eu0g9isdj19elynh1jzukhe'>
+            <connection class='textscan' directory='D:/projects/DATA SCIENCE/Tableau/data/raw' filename='posts_merged_tableau.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1d854eu0g9isdj19elynh1jzukhe' name='posts_merged_tableau.csv' table='[posts_merged_tableau#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='post_id' ordinal='0' />
+            <column datatype='datetime' name='timestamp' ordinal='1' />
+            <column datatype='string' name='media_type' ordinal='2' />
+            <column datatype='string' name='caption' ordinal='3' />
+            <column datatype='integer' name='like_count' ordinal='4' />
+            <column datatype='integer' name='comment_count' ordinal='5' />
+            <column datatype='integer' name='reach' ordinal='6' />
+            <column datatype='integer' name='impressions' ordinal='7' />
+            <column datatype='integer' name='saves' ordinal='8' />
+            <column datatype='integer' name='shares' ordinal='9' />
+            <column datatype='integer' name='profile_visits' ordinal='10' />
+            <column datatype='integer' name='follows' ordinal='11' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[posts_merged_tableau.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>post_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[post_id]</local-name>
+            <parent-name>[posts_merged_tableau.csv]</parent-name>
+            <remote-alias>post_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>timestamp</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[timestamp]</local-name>
+            <parent-name>[posts_merged_tableau.csv]</parent-name>
+            <remote-alias>timestamp</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>media_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[media_type]</local-name>
+            <parent-name>[posts_merged_tableau.csv]</parent-name>
+            <remote-alias>media_type</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>caption</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[caption]</local-name>
+            <parent-name>[posts_merged_tableau.csv]</parent-name>
+            <remote-alias>caption</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>like_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[like_count]</local-name>
+            <parent-name>[posts_merged_tableau.csv]</parent-name>
+            <remote-alias>like_count</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>comment_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[comment_count]</local-name>
+            <parent-name>[posts_merged_tableau.csv]</parent-name>
+            <remote-alias>comment_count</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>reach</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[reach]</local-name>
+            <parent-name>[posts_merged_tableau.csv]</parent-name>
+            <remote-alias>reach</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>impressions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[impressions]</local-name>
+            <parent-name>[posts_merged_tableau.csv]</parent-name>
+            <remote-alias>impressions</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>saves</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[saves]</local-name>
+            <parent-name>[posts_merged_tableau.csv]</parent-name>
+            <remote-alias>saves</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shares</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[shares]</local-name>
+            <parent-name>[posts_merged_tableau.csv]</parent-name>
+            <remote-alias>shares</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>profile_visits</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[profile_visits]</local-name>
+            <parent-name>[posts_merged_tableau.csv]</parent-name>
+            <remote-alias>profile_visits</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>follows</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[follows]</local-name>
+            <parent-name>[posts_merged_tableau.csv]</parent-name>
+            <remote-alias>follows</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='ENGAGEMENT' datatype='integer' name='[Calculation_686236001920217088]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[like_count] + [comment_count] + [saves] + [shares]' />
+      </column>
+      <column caption='ENGAGEMENT RATE' datatype='real' default-format='p0.00%' name='[Calculation_686236001920372737]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [reach] &gt; 0 THEN&#13;&#10;     [Calculation_686236001920217088] / [reach]&#13;&#10;ELSE &#13;&#10;     0&#13;&#10;END' />
+      </column>
+      <column caption='PROFILE VISIT RATE' datatype='real' name='[Calculation_686236001920466946]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [reach] &gt; 0 THEN&#13;&#10;    [profile_visits] / [reach]&#13;&#10;ELSE&#13;&#10;    0&#13;&#10;END' />
+      </column>
+      <column caption='FOLLO CONVERSION RATE' datatype='real' default-format='p0.00%' name='[Calculation_686236001920667651]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [profile_visits] &gt; 0 THEN&#13;&#10;    [follows] / [profile_visits]&#13;&#10;ELSE&#13;&#10;    0&#13;&#10;END' />
+      </column>
+      <column caption='POST DATE' datatype='date' name='[Calculation_686236001920835588]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='DATE([timestamp])' />
+      </column>
+      <column caption='POST MONTH' datatype='datetime' name='[Calculation_686236001920901125]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='DATETRUNC(&apos;month&apos;, [Calculation_686236001920835588])' />
+      </column>
+      <column caption='DAY OF WEEK' datatype='string' name='[Calculation_686236001920987142]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='DATENAME(&apos;weekday&apos;, [Calculation_686236001920835588])' />
+      </column>
+      <column caption='HOUR OF DAY' datatype='integer' name='[Calculation_686236001921073159]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='DATEPART(&apos;hour&apos;, [timestamp])' />
+      </column>
+      <column caption='SAVE RATE' datatype='real' name='[Calculation_686236001959890952]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [reach] &gt; 0 THEN&#13;&#10;    [saves] / [reach]&#13;&#10;ELSE&#13;&#10;    0&#13;&#10;END' />
+      </column>
+      <column caption='SHARE RATE' datatype='real' name='[Calculation_686236001960091657]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [reach] &gt; 0 THEN&#13;&#10;    [shares] / [reach]&#13;&#10;ELSE&#13;&#10;    0&#13;&#10;END' />
+      </column>
+      <column caption='VIRALITY RATE' datatype='real' name='[Calculation_686236001960144906]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Calculation_686236001959890952] * 0.4) + ([Calculation_686236001960091657] * 0.6)' />
+      </column>
+      <column caption='TOTAL REACH' datatype='integer' name='[Calculation_686236001960665099]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([reach])' />
+      </column>
+      <column caption='TOTAL PROFILE VISIT' datatype='integer' name='[Calculation_686236001960763404]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([profile_visits])' />
+      </column>
+      <column caption='TOTAL FOLLOW' datatype='integer' name='[Calculation_686236001960894477]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([follows])' />
+      </column>
+      <column caption='COST PER ENGAGEMENT(CPE' datatype='real' name='[Calculation_686236001979064334]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Calculation_686236001920217088] &gt; 0 THEN&#13;&#10;    [Parameters].[Parameter 1] / [Calculation_686236001920217088]&#13;&#10;ELSE&#13;&#10;    NULL&#13;&#10;END' />
+      </column>
+      <column caption='PROMOTION PRIORITY SCORE' datatype='real' name='[Calculation_686236001980395535]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_686236001920217088] * 0.7 + [Calculation_686236001960144906] * 100000 * 0.3' />
+      </column>
+      <column caption='posts_merged_tableau.csv' datatype='table' name='[__tableau_internal_object_id__].[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]' role='measure' type='quantitative' />
+      <column caption='Caption' datatype='string' name='[caption]' role='dimension' type='nominal' />
+      <column caption='Comment Count' datatype='integer' name='[comment_count]' role='measure' type='quantitative' />
+      <column caption='Follows' datatype='integer' name='[follows]' role='measure' type='quantitative' />
+      <column caption='Impressions' datatype='integer' name='[impressions]' role='measure' type='quantitative' />
+      <column caption='Like Count' datatype='integer' name='[like_count]' role='measure' type='quantitative' />
+      <column caption='Media Type' datatype='string' name='[media_type]' role='dimension' type='nominal' />
+      <column caption='Post Id' datatype='string' name='[post_id]' role='dimension' type='nominal' />
+      <column caption='Profile Visits' datatype='integer' name='[profile_visits]' role='measure' type='quantitative' />
+      <column caption='Reach' datatype='integer' name='[reach]' role='measure' type='quantitative' />
+      <column caption='Saves' datatype='integer' name='[saves]' role='measure' type='quantitative' />
+      <column caption='Shares' datatype='integer' name='[shares]' role='measure' type='quantitative' />
+      <column caption='Timestamp' datatype='datetime' name='[timestamp]' role='dimension' type='ordinal' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/amal/AppData/Local/Temp/TableauTemp/#TableauTemp_0r91ay20chnqfc156tb1x1a791ee.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='11/21/2025 05:43:21 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>post_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[post_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>post_id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>posts_merged_tableau.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>320</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>timestamp</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[timestamp]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>timestamp</remote-alias>
+              <ordinal>1</ordinal>
+              <family>posts_merged_tableau.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>320</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>media_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[media_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>media_type</remote-alias>
+              <ordinal>2</ordinal>
+              <family>posts_merged_tableau.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>caption</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[caption]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>caption</remote-alias>
+              <ordinal>3</ordinal>
+              <family>posts_merged_tableau.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>320</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>like_count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[like_count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>like_count</remote-alias>
+              <ordinal>4</ordinal>
+              <family>posts_merged_tableau.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>303</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>comment_count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[comment_count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>comment_count</remote-alias>
+              <ordinal>5</ordinal>
+              <family>posts_merged_tableau.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>105</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>reach</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[reach]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>reach</remote-alias>
+              <ordinal>6</ordinal>
+              <family>posts_merged_tableau.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>320</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>impressions</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[impressions]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>impressions</remote-alias>
+              <ordinal>7</ordinal>
+              <family>posts_merged_tableau.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>320</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>saves</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[saves]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>saves</remote-alias>
+              <ordinal>8</ordinal>
+              <family>posts_merged_tableau.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>65</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>shares</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[shares]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>shares</remote-alias>
+              <ordinal>9</ordinal>
+              <family>posts_merged_tableau.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>33</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>profile_visits</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[profile_visits]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>profile_visits</remote-alias>
+              <ordinal>10</ordinal>
+              <family>posts_merged_tableau.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>112</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>follows</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[follows]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>follows</remote-alias>
+              <ordinal>11</ordinal>
+              <family>posts_merged_tableau.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Forecast Indicator:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Actual&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Estimate&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Actual&quot;</bucket>
+            <bucket>&quot;Estimate&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <datasource-dependencies datasource='Parameters'>
+        <column caption='CAMPAIGN BUDGET' datatype='real' name='[Parameter 1]' param-domain-type='any' role='measure' type='quantitative' value='20000.'>
+          <calculation class='tableau' formula='20000.' />
+        </column>
+      </datasource-dependencies>
+      <object-graph>
+        <objects>
+          <object caption='posts_merged_tableau.csv' id='posts_merged_tableau.csv_9FE90A21B2224A2A964D5E85C5CA633D'>
+            <properties context=''>
+              <relation connection='textscan.1d854eu0g9isdj19elynh1jzukhe' name='posts_merged_tableau.csv' table='[posts_merged_tableau#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='post_id' ordinal='0' />
+                  <column datatype='datetime' name='timestamp' ordinal='1' />
+                  <column datatype='string' name='media_type' ordinal='2' />
+                  <column datatype='string' name='caption' ordinal='3' />
+                  <column datatype='integer' name='like_count' ordinal='4' />
+                  <column datatype='integer' name='comment_count' ordinal='5' />
+                  <column datatype='integer' name='reach' ordinal='6' />
+                  <column datatype='integer' name='impressions' ordinal='7' />
+                  <column datatype='integer' name='saves' ordinal='8' />
+                  <column datatype='integer' name='shares' ordinal='9' />
+                  <column datatype='integer' name='profile_visits' ordinal='10' />
+                  <column datatype='integer' name='follows' ordinal='11' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.0haq5he1yvxmse17vun171y80wj3'>
+      <datasources>
+        <datasource caption='posts_merged_tableau' name='federated.0haq5he1yvxmse17vun171y80wj3' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0haq5he1yvxmse17vun171y80wj3'>
+        <column caption='POST MONTH' datatype='datetime' name='[Calculation_686236001920901125]' role='dimension' type='ordinal'>
+          <calculation class='tableau' formula='DATETRUNC(&apos;month&apos;, [Calculation_686236001920835588])' />
+        </column>
+        <column caption='Media Type' datatype='string' name='[media_type]' role='dimension' type='nominal' />
+        <column-instance column='[media_type]' derivation='None' name='[none:media_type:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Calculation_686236001920901125]' derivation='Year' name='[yr:Calculation_686236001920901125:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]'>
+        <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='member' level='[none:media_type:nk]' member='&quot;image&quot;' />
+          <groupfilter function='member' level='[none:media_type:nk]' member='&quot;reel&quot;' />
+        </groupfilter>
+        <target field='[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]' />
+      </filter>
+      <filter class='categorical' column='[federated.0haq5he1yvxmse17vun171y80wj3].[yr:Calculation_686236001920901125:ok]'>
+        <groupfilter function='level-members' level='[yr:Calculation_686236001920901125:ok]' />
+        <target field='[federated.0haq5he1yvxmse17vun171y80wj3].[yr:Calculation_686236001920901125:ok]' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <worksheets>
+    <worksheet name='BEST DAY'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='posts_merged_tableau' name='federated.0haq5he1yvxmse17vun171y80wj3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0haq5he1yvxmse17vun171y80wj3'>
+            <column caption='ENGAGEMENT' datatype='integer' name='[Calculation_686236001920217088]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[like_count] + [comment_count] + [saves] + [shares]' />
+            </column>
+            <column caption='ENGAGEMENT RATE' datatype='real' default-format='p0.00%' name='[Calculation_686236001920372737]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [reach] &gt; 0 THEN&#13;&#10;     [Calculation_686236001920217088] / [reach]&#13;&#10;ELSE &#13;&#10;     0&#13;&#10;END' />
+            </column>
+            <column caption='POST DATE' datatype='date' name='[Calculation_686236001920835588]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE([timestamp])' />
+            </column>
+            <column caption='POST MONTH' datatype='datetime' name='[Calculation_686236001920901125]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATETRUNC(&apos;month&apos;, [Calculation_686236001920835588])' />
+            </column>
+            <column caption='DAY OF WEEK' datatype='string' name='[Calculation_686236001920987142]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='DATENAME(&apos;weekday&apos;, [Calculation_686236001920835588])' />
+            </column>
+            <column-instance column='[Calculation_686236001920372737]' derivation='Avg' name='[avg:Calculation_686236001920372737:qk]' pivot='key' type='quantitative' />
+            <column caption='Comment Count' datatype='integer' name='[comment_count]' role='measure' type='quantitative' />
+            <column caption='Like Count' datatype='integer' name='[like_count]' role='measure' type='quantitative' />
+            <column caption='Media Type' datatype='string' name='[media_type]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_686236001920987142]' derivation='None' name='[none:Calculation_686236001920987142:nk]' pivot='key' type='nominal' />
+            <column-instance column='[media_type]' derivation='None' name='[none:media_type:nk]' pivot='key' type='nominal' />
+            <column caption='Reach' datatype='integer' name='[reach]' role='measure' type='quantitative' />
+            <column caption='Saves' datatype='integer' name='[saves]' role='measure' type='quantitative' />
+            <column caption='Shares' datatype='integer' name='[shares]' role='measure' type='quantitative' />
+            <column caption='Timestamp' datatype='datetime' name='[timestamp]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_686236001920901125]' derivation='Year' name='[yr:Calculation_686236001920901125:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]</column>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[yr:Calculation_686236001920901125:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0haq5he1yvxmse17vun171y80wj3].[avg:Calculation_686236001920372737:qk]' value='p0.00%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0haq5he1yvxmse17vun171y80wj3].[avg:Calculation_686236001920372737:qk]</rows>
+        <cols>[federated.0haq5he1yvxmse17vun171y80wj3].[none:Calculation_686236001920987142:nk]</cols>
+      </table>
+      <simple-id uuid='{916E3A84-0647-411B-8528-DE981424B948}' />
+    </worksheet>
+    <worksheet name='BEST HOUR'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='posts_merged_tableau' name='federated.0haq5he1yvxmse17vun171y80wj3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0haq5he1yvxmse17vun171y80wj3'>
+            <column caption='ENGAGEMENT' datatype='integer' name='[Calculation_686236001920217088]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[like_count] + [comment_count] + [saves] + [shares]' />
+            </column>
+            <column caption='ENGAGEMENT RATE' datatype='real' default-format='p0.00%' name='[Calculation_686236001920372737]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [reach] &gt; 0 THEN&#13;&#10;     [Calculation_686236001920217088] / [reach]&#13;&#10;ELSE &#13;&#10;     0&#13;&#10;END' />
+            </column>
+            <column caption='POST DATE' datatype='date' name='[Calculation_686236001920835588]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE([timestamp])' />
+            </column>
+            <column caption='POST MONTH' datatype='datetime' name='[Calculation_686236001920901125]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATETRUNC(&apos;month&apos;, [Calculation_686236001920835588])' />
+            </column>
+            <column caption='HOUR OF DAY' datatype='integer' name='[Calculation_686236001921073159]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='DATEPART(&apos;hour&apos;, [timestamp])' />
+            </column>
+            <column-instance column='[Calculation_686236001920372737]' derivation='Avg' name='[avg:Calculation_686236001920372737:qk]' pivot='key' type='quantitative' />
+            <column caption='Comment Count' datatype='integer' name='[comment_count]' role='measure' type='quantitative' />
+            <column caption='Like Count' datatype='integer' name='[like_count]' role='measure' type='quantitative' />
+            <column caption='Media Type' datatype='string' name='[media_type]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_686236001921073159]' derivation='None' name='[none:Calculation_686236001921073159:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[media_type]' derivation='None' name='[none:media_type:nk]' pivot='key' type='nominal' />
+            <column caption='Reach' datatype='integer' name='[reach]' role='measure' type='quantitative' />
+            <column caption='Saves' datatype='integer' name='[saves]' role='measure' type='quantitative' />
+            <column caption='Shares' datatype='integer' name='[shares]' role='measure' type='quantitative' />
+            <column caption='Timestamp' datatype='datetime' name='[timestamp]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_686236001920901125]' derivation='Year' name='[yr:Calculation_686236001920901125:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]</column>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[yr:Calculation_686236001920901125:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0haq5he1yvxmse17vun171y80wj3].[avg:Calculation_686236001920372737:qk]</rows>
+        <cols>[federated.0haq5he1yvxmse17vun171y80wj3].[none:Calculation_686236001921073159:qk]</cols>
+      </table>
+      <simple-id uuid='{16694058-017C-4470-B37E-F52F356824D8}' />
+    </worksheet>
+    <worksheet name='ENG RATE /MEDIA TYPE'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='posts_merged_tableau' name='federated.0haq5he1yvxmse17vun171y80wj3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0haq5he1yvxmse17vun171y80wj3'>
+            <column caption='ENGAGEMENT' datatype='integer' name='[Calculation_686236001920217088]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[like_count] + [comment_count] + [saves] + [shares]' />
+            </column>
+            <column caption='ENGAGEMENT RATE' datatype='real' default-format='p0.00%' name='[Calculation_686236001920372737]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [reach] &gt; 0 THEN&#13;&#10;     [Calculation_686236001920217088] / [reach]&#13;&#10;ELSE &#13;&#10;     0&#13;&#10;END' />
+            </column>
+            <column caption='POST DATE' datatype='date' name='[Calculation_686236001920835588]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE([timestamp])' />
+            </column>
+            <column caption='POST MONTH' datatype='datetime' name='[Calculation_686236001920901125]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATETRUNC(&apos;month&apos;, [Calculation_686236001920835588])' />
+            </column>
+            <column caption='Comment Count' datatype='integer' name='[comment_count]' role='measure' type='quantitative' />
+            <column caption='Like Count' datatype='integer' name='[like_count]' role='measure' type='quantitative' />
+            <column caption='Media Type' datatype='string' name='[media_type]' role='dimension' type='nominal' />
+            <column-instance column='[media_type]' derivation='None' name='[none:media_type:nk]' pivot='key' type='nominal' />
+            <column caption='Reach' datatype='integer' name='[reach]' role='measure' type='quantitative' />
+            <column caption='Saves' datatype='integer' name='[saves]' role='measure' type='quantitative' />
+            <column caption='Shares' datatype='integer' name='[shares]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_686236001920372737]' derivation='Sum' name='[sum:Calculation_686236001920372737:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[comment_count]' derivation='Sum' name='[sum:comment_count:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[like_count]' derivation='Sum' name='[sum:like_count:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[saves]' derivation='Sum' name='[sum:saves:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[shares]' derivation='Sum' name='[sum:shares:qk]' pivot='key' type='quantitative' />
+            <column caption='Timestamp' datatype='datetime' name='[timestamp]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_686236001920901125]' derivation='Year' name='[yr:Calculation_686236001920901125:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]</column>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[yr:Calculation_686236001920901125:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <tooltip column='[federated.0haq5he1yvxmse17vun171y80wj3].[sum:like_count:qk]' />
+              <tooltip column='[federated.0haq5he1yvxmse17vun171y80wj3].[sum:comment_count:qk]' />
+              <tooltip column='[federated.0haq5he1yvxmse17vun171y80wj3].[sum:shares:qk]' />
+              <tooltip column='[federated.0haq5he1yvxmse17vun171y80wj3].[sum:saves:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0haq5he1yvxmse17vun171y80wj3].[sum:Calculation_686236001920372737:qk]</rows>
+        <cols>[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]</cols>
+      </table>
+      <simple-id uuid='{6A88D297-DA3D-4BE7-8F16-0E34582CEB33}' />
+    </worksheet>
+    <worksheet name='ENGAGEMENT FORECAST'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='posts_merged_tableau' name='federated.0haq5he1yvxmse17vun171y80wj3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0haq5he1yvxmse17vun171y80wj3'>
+            <column caption='ENGAGEMENT' datatype='integer' name='[Calculation_686236001920217088]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[like_count] + [comment_count] + [saves] + [shares]' />
+            </column>
+            <column caption='ENGAGEMENT RATE' datatype='real' default-format='p0.00%' name='[Calculation_686236001920372737]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [reach] &gt; 0 THEN&#13;&#10;     [Calculation_686236001920217088] / [reach]&#13;&#10;ELSE &#13;&#10;     0&#13;&#10;END' />
+            </column>
+            <column caption='POST DATE' datatype='date' name='[Calculation_686236001920835588]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE([timestamp])' />
+            </column>
+            <column caption='POST MONTH' datatype='datetime' name='[Calculation_686236001920901125]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATETRUNC(&apos;month&apos;, [Calculation_686236001920835588])' />
+            </column>
+            <column-instance column='[Calculation_686236001920372737]' derivation='Avg' name='[avg:Calculation_686236001920372737:qk]' pivot='key' type='quantitative' />
+            <column caption='Comment Count' datatype='integer' name='[comment_count]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_686236001920372737]' derivation='Avg' forecast-column-base='[avg:Calculation_686236001920372737:qk]' forecast-column-type='forecast-value' name='[fVal:avg:Calculation_686236001920372737:qk]' pivot='key' type='quantitative' />
+            <column caption='Like Count' datatype='integer' name='[like_count]' role='measure' type='quantitative' />
+            <column caption='Media Type' datatype='string' name='[media_type]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_686236001920901125]' derivation='Month' name='[mn:Calculation_686236001920901125:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+            <column-instance column='[media_type]' derivation='None' name='[none:media_type:nk]' pivot='key' type='nominal' />
+            <column caption='Reach' datatype='integer' name='[reach]' role='measure' type='quantitative' />
+            <column caption='Saves' datatype='integer' name='[saves]' role='measure' type='quantitative' />
+            <column caption='Shares' datatype='integer' name='[shares]' role='measure' type='quantitative' />
+            <column caption='Timestamp' datatype='datetime' name='[timestamp]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_686236001920901125]' derivation='Year' name='[yr:Calculation_686236001920901125:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]</column>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[yr:Calculation_686236001920901125:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='height-header' value='19' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0haq5he1yvxmse17vun171y80wj3].[none:Forecast Indicator:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0haq5he1yvxmse17vun171y80wj3].[fVal:avg:Calculation_686236001920372737:qk]</rows>
+        <cols>([federated.0haq5he1yvxmse17vun171y80wj3].[yr:Calculation_686236001920901125:ok] / [federated.0haq5he1yvxmse17vun171y80wj3].[mn:Calculation_686236001920901125:ok])</cols>
+        <forecast-specification auto-forecast-agg='true' band-confidence-level='95.000000' enabled='true' fill-type='fill-missing' ignore-last='0' model-type='auto-season' range-periods='Month-Trunc' range-size='6' range-type='end-of' show-prediction-bands='true' />
+      </table>
+      <simple-id uuid='{23AF6EB4-4C53-4F22-8DC0-EF30F52197E5}' />
+    </worksheet>
+    <worksheet name='FOLLOW COVERSION RATE'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='posts_merged_tableau' name='federated.0haq5he1yvxmse17vun171y80wj3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0haq5he1yvxmse17vun171y80wj3'>
+            <column caption='FOLLO CONVERSION RATE' datatype='real' default-format='p0.00%' name='[Calculation_686236001920667651]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [profile_visits] &gt; 0 THEN&#13;&#10;    [follows] / [profile_visits]&#13;&#10;ELSE&#13;&#10;    0&#13;&#10;END' />
+            </column>
+            <column caption='POST DATE' datatype='date' name='[Calculation_686236001920835588]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE([timestamp])' />
+            </column>
+            <column caption='POST MONTH' datatype='datetime' name='[Calculation_686236001920901125]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATETRUNC(&apos;month&apos;, [Calculation_686236001920835588])' />
+            </column>
+            <column caption='SAVE RATE' datatype='real' name='[Calculation_686236001959890952]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [reach] &gt; 0 THEN&#13;&#10;    [saves] / [reach]&#13;&#10;ELSE&#13;&#10;    0&#13;&#10;END' />
+            </column>
+            <column caption='SHARE RATE' datatype='real' name='[Calculation_686236001960091657]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [reach] &gt; 0 THEN&#13;&#10;    [shares] / [reach]&#13;&#10;ELSE&#13;&#10;    0&#13;&#10;END' />
+            </column>
+            <column-instance column='[Calculation_686236001920667651]' derivation='Avg' name='[avg:Calculation_686236001920667651:qk]' pivot='key' type='quantitative' />
+            <column caption='Follows' datatype='integer' name='[follows]' role='measure' type='quantitative' />
+            <column caption='Media Type' datatype='string' name='[media_type]' role='dimension' type='nominal' />
+            <column-instance column='[media_type]' derivation='None' name='[none:media_type:nk]' pivot='key' type='nominal' />
+            <column caption='Profile Visits' datatype='integer' name='[profile_visits]' role='measure' type='quantitative' />
+            <column caption='Reach' datatype='integer' name='[reach]' role='measure' type='quantitative' />
+            <column caption='Saves' datatype='integer' name='[saves]' role='measure' type='quantitative' />
+            <column caption='Shares' datatype='integer' name='[shares]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_686236001959890952]' derivation='Sum' name='[sum:Calculation_686236001959890952:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_686236001960091657]' derivation='Sum' name='[sum:Calculation_686236001960091657:qk]' pivot='key' type='quantitative' />
+            <column caption='Timestamp' datatype='datetime' name='[timestamp]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_686236001920901125]' derivation='Year' name='[yr:Calculation_686236001920901125:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]</column>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[yr:Calculation_686236001920901125:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]' value='26' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <tooltip column='[federated.0haq5he1yvxmse17vun171y80wj3].[sum:Calculation_686236001959890952:qk]' />
+              <tooltip column='[federated.0haq5he1yvxmse17vun171y80wj3].[sum:Calculation_686236001960091657:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0haq5he1yvxmse17vun171y80wj3].[avg:Calculation_686236001920667651:qk]</rows>
+        <cols>[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]</cols>
+      </table>
+      <simple-id uuid='{7838153A-5217-4175-9C6E-F01D2738F01C}' />
+    </worksheet>
+    <worksheet name='FUNNEL'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='posts_merged_tableau' name='federated.0haq5he1yvxmse17vun171y80wj3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0haq5he1yvxmse17vun171y80wj3'>
+            <column caption='POST DATE' datatype='date' name='[Calculation_686236001920835588]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE([timestamp])' />
+            </column>
+            <column caption='POST MONTH' datatype='datetime' name='[Calculation_686236001920901125]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATETRUNC(&apos;month&apos;, [Calculation_686236001920835588])' />
+            </column>
+            <column caption='TOTAL REACH' datatype='integer' name='[Calculation_686236001960665099]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([reach])' />
+            </column>
+            <column caption='TOTAL PROFILE VISIT' datatype='integer' name='[Calculation_686236001960763404]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([profile_visits])' />
+            </column>
+            <column caption='TOTAL FOLLOW' datatype='integer' name='[Calculation_686236001960894477]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([follows])' />
+            </column>
+            <column caption='Follows' datatype='integer' name='[follows]' role='measure' type='quantitative' />
+            <column caption='Media Type' datatype='string' name='[media_type]' role='dimension' type='nominal' />
+            <column-instance column='[media_type]' derivation='None' name='[none:media_type:nk]' pivot='key' type='nominal' />
+            <column caption='Profile Visits' datatype='integer' name='[profile_visits]' role='measure' type='quantitative' />
+            <column caption='Reach' datatype='integer' name='[reach]' role='measure' type='quantitative' />
+            <column caption='Timestamp' datatype='datetime' name='[timestamp]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_686236001960665099]' derivation='User' name='[usr:Calculation_686236001960665099:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_686236001960763404]' derivation='User' name='[usr:Calculation_686236001960763404:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_686236001960894477]' derivation='User' name='[usr:Calculation_686236001960894477:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_686236001920901125]' derivation='Year' name='[yr:Calculation_686236001920901125:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0haq5he1yvxmse17vun171y80wj3].[:Measure Names]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0haq5he1yvxmse17vun171y80wj3].[usr:Calculation_686236001960894477:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0haq5he1yvxmse17vun171y80wj3].[usr:Calculation_686236001960763404:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0haq5he1yvxmse17vun171y80wj3].[usr:Calculation_686236001960665099:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[:Measure Names]</column>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]</column>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[yr:Calculation_686236001920901125:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0haq5he1yvxmse17vun171y80wj3].[Multiple Values]</rows>
+        <cols>[federated.0haq5he1yvxmse17vun171y80wj3].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{5E2E7F21-1DF2-485B-8BE2-A9D18B7B78A3}' />
+    </worksheet>
+    <worksheet name='MEDIA TYPE PERFORMANCE'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='posts_merged_tableau' name='federated.0haq5he1yvxmse17vun171y80wj3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0haq5he1yvxmse17vun171y80wj3'>
+            <column caption='ENGAGEMENT' datatype='integer' name='[Calculation_686236001920217088]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[like_count] + [comment_count] + [saves] + [shares]' />
+            </column>
+            <column caption='ENGAGEMENT RATE' datatype='real' default-format='p0.00%' name='[Calculation_686236001920372737]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [reach] &gt; 0 THEN&#13;&#10;     [Calculation_686236001920217088] / [reach]&#13;&#10;ELSE &#13;&#10;     0&#13;&#10;END' />
+            </column>
+            <column caption='POST DATE' datatype='date' name='[Calculation_686236001920835588]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE([timestamp])' />
+            </column>
+            <column caption='POST MONTH' datatype='datetime' name='[Calculation_686236001920901125]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATETRUNC(&apos;month&apos;, [Calculation_686236001920835588])' />
+            </column>
+            <column caption='SAVE RATE' datatype='real' name='[Calculation_686236001959890952]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [reach] &gt; 0 THEN&#13;&#10;    [saves] / [reach]&#13;&#10;ELSE&#13;&#10;    0&#13;&#10;END' />
+            </column>
+            <column caption='SHARE RATE' datatype='real' name='[Calculation_686236001960091657]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [reach] &gt; 0 THEN&#13;&#10;    [shares] / [reach]&#13;&#10;ELSE&#13;&#10;    0&#13;&#10;END' />
+            </column>
+            <column-instance column='[Calculation_686236001920372737]' derivation='Avg' name='[avg:Calculation_686236001920372737:qk]' pivot='key' type='quantitative' />
+            <column caption='Comment Count' datatype='integer' name='[comment_count]' role='measure' type='quantitative' />
+            <column caption='Like Count' datatype='integer' name='[like_count]' role='measure' type='quantitative' />
+            <column caption='Media Type' datatype='string' name='[media_type]' role='dimension' type='nominal' />
+            <column-instance column='[media_type]' derivation='None' name='[none:media_type:nk]' pivot='key' type='nominal' />
+            <column caption='Reach' datatype='integer' name='[reach]' role='measure' type='quantitative' />
+            <column caption='Saves' datatype='integer' name='[saves]' role='measure' type='quantitative' />
+            <column caption='Shares' datatype='integer' name='[shares]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_686236001959890952]' derivation='Sum' name='[sum:Calculation_686236001959890952:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_686236001960091657]' derivation='Sum' name='[sum:Calculation_686236001960091657:qk]' pivot='key' type='quantitative' />
+            <column caption='Timestamp' datatype='datetime' name='[timestamp]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_686236001920901125]' derivation='Year' name='[yr:Calculation_686236001920901125:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]</column>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[yr:Calculation_686236001920901125:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <tooltip column='[federated.0haq5he1yvxmse17vun171y80wj3].[sum:Calculation_686236001959890952:qk]' />
+              <tooltip column='[federated.0haq5he1yvxmse17vun171y80wj3].[sum:Calculation_686236001960091657:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0haq5he1yvxmse17vun171y80wj3].[avg:Calculation_686236001920372737:qk]</rows>
+        <cols>[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]</cols>
+      </table>
+      <simple-id uuid='{B3F2CC17-5632-4ECB-8E45-2A687444DF50}' />
+    </worksheet>
+    <worksheet name='PROMOTION PRIORITY SCORE'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='posts_merged_tableau' name='federated.0haq5he1yvxmse17vun171y80wj3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0haq5he1yvxmse17vun171y80wj3'>
+            <column caption='ENGAGEMENT' datatype='integer' name='[Calculation_686236001920217088]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[like_count] + [comment_count] + [saves] + [shares]' />
+            </column>
+            <column caption='POST DATE' datatype='date' name='[Calculation_686236001920835588]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE([timestamp])' />
+            </column>
+            <column caption='POST MONTH' datatype='datetime' name='[Calculation_686236001920901125]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATETRUNC(&apos;month&apos;, [Calculation_686236001920835588])' />
+            </column>
+            <column caption='SAVE RATE' datatype='real' name='[Calculation_686236001959890952]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [reach] &gt; 0 THEN&#13;&#10;    [saves] / [reach]&#13;&#10;ELSE&#13;&#10;    0&#13;&#10;END' />
+            </column>
+            <column caption='SHARE RATE' datatype='real' name='[Calculation_686236001960091657]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [reach] &gt; 0 THEN&#13;&#10;    [shares] / [reach]&#13;&#10;ELSE&#13;&#10;    0&#13;&#10;END' />
+            </column>
+            <column caption='VIRALITY RATE' datatype='real' name='[Calculation_686236001960144906]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Calculation_686236001959890952] * 0.4) + ([Calculation_686236001960091657] * 0.6)' />
+            </column>
+            <column caption='PROMOTION PRIORITY SCORE' datatype='real' name='[Calculation_686236001980395535]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Calculation_686236001920217088] * 0.7 + [Calculation_686236001960144906] * 100000 * 0.3' />
+            </column>
+            <column caption='Comment Count' datatype='integer' name='[comment_count]' role='measure' type='quantitative' />
+            <column caption='Like Count' datatype='integer' name='[like_count]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_686236001980395535]' derivation='Max' name='[max:Calculation_686236001980395535:qk]' pivot='key' type='quantitative' />
+            <column caption='Media Type' datatype='string' name='[media_type]' role='dimension' type='nominal' />
+            <column-instance column='[media_type]' derivation='None' name='[none:media_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[post_id]' derivation='None' name='[none:post_id:nk]' pivot='key' type='nominal' />
+            <column caption='Post Id' datatype='string' name='[post_id]' role='dimension' type='nominal' />
+            <column caption='Reach' datatype='integer' name='[reach]' role='measure' type='quantitative' />
+            <column caption='Saves' datatype='integer' name='[saves]' role='measure' type='quantitative' />
+            <column caption='Shares' datatype='integer' name='[shares]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_686236001980395535]' derivation='Sum' name='[sum:Calculation_686236001980395535:qk]' pivot='key' type='quantitative' />
+            <column caption='Timestamp' datatype='datetime' name='[timestamp]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_686236001920901125]' derivation='Year' name='[yr:Calculation_686236001920901125:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0haq5he1yvxmse17vun171y80wj3].[none:post_id:nk]'>
+            <groupfilter count='20' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Calculation_686236001980395535])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:post_id:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.0haq5he1yvxmse17vun171y80wj3].[none:post_id:nk]' direction='DESC' using='[federated.0haq5he1yvxmse17vun171y80wj3].[sum:Calculation_686236001980395535:qk]' />
+          <slices>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[none:post_id:nk]</column>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]</column>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[yr:Calculation_686236001920901125:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0haq5he1yvxmse17vun171y80wj3].[max:Calculation_686236001980395535:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0haq5he1yvxmse17vun171y80wj3].[none:post_id:nk]</rows>
+        <cols>[federated.0haq5he1yvxmse17vun171y80wj3].[sum:Calculation_686236001980395535:qk]</cols>
+      </table>
+      <simple-id uuid='{0F53B71F-645C-417D-89A3-632176C5A157}' />
+    </worksheet>
+    <worksheet name='PROMOTION ROI'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='posts_merged_tableau' name='federated.0haq5he1yvxmse17vun171y80wj3' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='CAMPAIGN BUDGET' datatype='real' name='[Parameter 1]' param-domain-type='any' role='measure' type='quantitative' value='20000.'>
+              <calculation class='tableau' formula='20000.' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0haq5he1yvxmse17vun171y80wj3'>
+            <column caption='ENGAGEMENT' datatype='integer' name='[Calculation_686236001920217088]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[like_count] + [comment_count] + [saves] + [shares]' />
+            </column>
+            <column caption='POST DATE' datatype='date' name='[Calculation_686236001920835588]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE([timestamp])' />
+            </column>
+            <column caption='POST MONTH' datatype='datetime' name='[Calculation_686236001920901125]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATETRUNC(&apos;month&apos;, [Calculation_686236001920835588])' />
+            </column>
+            <column caption='COST PER ENGAGEMENT(CPE' datatype='real' name='[Calculation_686236001979064334]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Calculation_686236001920217088] &gt; 0 THEN&#13;&#10;    [Parameters].[Parameter 1] / [Calculation_686236001920217088]&#13;&#10;ELSE&#13;&#10;    NULL&#13;&#10;END' />
+            </column>
+            <column-instance column='[caption]' derivation='Attribute' name='[attr:caption:nk]' pivot='key' type='nominal' />
+            <column caption='Caption' datatype='string' name='[caption]' role='dimension' type='nominal' />
+            <column caption='Comment Count' datatype='integer' name='[comment_count]' role='measure' type='quantitative' />
+            <column caption='Like Count' datatype='integer' name='[like_count]' role='measure' type='quantitative' />
+            <column caption='Media Type' datatype='string' name='[media_type]' role='dimension' type='nominal' />
+            <column-instance column='[media_type]' derivation='None' name='[none:media_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[post_id]' derivation='None' name='[none:post_id:nk]' pivot='key' type='nominal' />
+            <column caption='Post Id' datatype='string' name='[post_id]' role='dimension' type='nominal' />
+            <column caption='Saves' datatype='integer' name='[saves]' role='measure' type='quantitative' />
+            <column caption='Shares' datatype='integer' name='[shares]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_686236001920217088]' derivation='Sum' name='[sum:Calculation_686236001920217088:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_686236001979064334]' derivation='Sum' name='[sum:Calculation_686236001979064334:qk]' pivot='key' type='quantitative' />
+            <column caption='Timestamp' datatype='datetime' name='[timestamp]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_686236001920901125]' derivation='Year' name='[yr:Calculation_686236001920901125:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0haq5he1yvxmse17vun171y80wj3].[none:post_id:nk]'>
+            <groupfilter count='20' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Calculation_686236001920217088])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:post_id:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.0haq5he1yvxmse17vun171y80wj3].[none:post_id:nk]' direction='DESC' using='[federated.0haq5he1yvxmse17vun171y80wj3].[sum:Calculation_686236001920217088:qk]' />
+          <slices>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[none:post_id:nk]</column>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]</column>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[yr:Calculation_686236001920901125:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0haq5he1yvxmse17vun171y80wj3].[sum:Calculation_686236001979064334:qk]' />
+              <tooltip column='[federated.0haq5he1yvxmse17vun171y80wj3].[sum:Calculation_686236001979064334:qk]' />
+              <tooltip column='[federated.0haq5he1yvxmse17vun171y80wj3].[attr:caption:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0haq5he1yvxmse17vun171y80wj3].[none:post_id:nk]</rows>
+        <cols>[federated.0haq5he1yvxmse17vun171y80wj3].[sum:Calculation_686236001920217088:qk]</cols>
+      </table>
+      <simple-id uuid='{A9342A91-BEE1-43C6-97BE-AD2AEF0B7DDD}' />
+    </worksheet>
+    <worksheet name='REACH FORECAST'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='posts_merged_tableau' name='federated.0haq5he1yvxmse17vun171y80wj3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0haq5he1yvxmse17vun171y80wj3'>
+            <column caption='POST DATE' datatype='date' name='[Calculation_686236001920835588]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE([timestamp])' />
+            </column>
+            <column caption='POST MONTH' datatype='datetime' name='[Calculation_686236001920901125]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATETRUNC(&apos;month&apos;, [Calculation_686236001920835588])' />
+            </column>
+            <column caption='TOTAL REACH' datatype='integer' name='[Calculation_686236001960665099]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([reach])' />
+            </column>
+            <column-instance column='[Calculation_686236001960665099]' derivation='User' forecast-column-base='[usr:Calculation_686236001960665099:qk]' forecast-column-type='forecast-value' name='[fVal:usr:Calculation_686236001960665099:qk]' pivot='key' type='quantitative' />
+            <column caption='Media Type' datatype='string' name='[media_type]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_686236001920901125]' derivation='Month' name='[mn:Calculation_686236001920901125:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+            <column-instance column='[media_type]' derivation='None' name='[none:media_type:nk]' pivot='key' type='nominal' />
+            <column caption='Reach' datatype='integer' name='[reach]' role='measure' type='quantitative' />
+            <column caption='Timestamp' datatype='datetime' name='[timestamp]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_686236001960665099]' derivation='User' name='[usr:Calculation_686236001960665099:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_686236001920901125]' derivation='Year' name='[yr:Calculation_686236001920901125:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]</column>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[yr:Calculation_686236001920901125:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='height-header' value='18' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0haq5he1yvxmse17vun171y80wj3].[none:Forecast Indicator:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0haq5he1yvxmse17vun171y80wj3].[fVal:usr:Calculation_686236001960665099:qk]</rows>
+        <cols>([federated.0haq5he1yvxmse17vun171y80wj3].[yr:Calculation_686236001920901125:ok] / [federated.0haq5he1yvxmse17vun171y80wj3].[mn:Calculation_686236001920901125:ok])</cols>
+        <forecast-specification auto-forecast-agg='true' band-confidence-level='95.000000' enabled='true' fill-type='fill-missing' ignore-last='0' model-type='auto-season' range-periods='Month-Trunc' range-size='6' range-type='next' show-prediction-bands='true' />
+      </table>
+      <simple-id uuid='{3782D177-FB5D-44B7-9305-5603BF957E9E}' />
+    </worksheet>
+    <worksheet name='REACH TREND OVER TIME'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='posts_merged_tableau' name='federated.0haq5he1yvxmse17vun171y80wj3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0haq5he1yvxmse17vun171y80wj3'>
+            <column caption='ENGAGEMENT' datatype='integer' name='[Calculation_686236001920217088]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[like_count] + [comment_count] + [saves] + [shares]' />
+            </column>
+            <column caption='ENGAGEMENT RATE' datatype='real' default-format='p0.00%' name='[Calculation_686236001920372737]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [reach] &gt; 0 THEN&#13;&#10;     [Calculation_686236001920217088] / [reach]&#13;&#10;ELSE &#13;&#10;     0&#13;&#10;END' />
+            </column>
+            <column caption='POST DATE' datatype='date' name='[Calculation_686236001920835588]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE([timestamp])' />
+            </column>
+            <column caption='POST MONTH' datatype='datetime' name='[Calculation_686236001920901125]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATETRUNC(&apos;month&apos;, [Calculation_686236001920835588])' />
+            </column>
+            <column caption='Comment Count' datatype='integer' name='[comment_count]' role='measure' type='quantitative' />
+            <column caption='Like Count' datatype='integer' name='[like_count]' role='measure' type='quantitative' />
+            <column caption='Media Type' datatype='string' name='[media_type]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_686236001920835588]' derivation='Month' name='[mn:Calculation_686236001920835588:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[media_type]' derivation='None' name='[none:media_type:nk]' pivot='key' type='nominal' />
+            <column caption='Reach' datatype='integer' name='[reach]' role='measure' type='quantitative' />
+            <column caption='Saves' datatype='integer' name='[saves]' role='measure' type='quantitative' />
+            <column caption='Shares' datatype='integer' name='[shares]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_686236001920372737]' derivation='Sum' name='[sum:Calculation_686236001920372737:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[reach]' derivation='Sum' name='[sum:reach:qk]' pivot='key' type='quantitative' />
+            <column caption='Timestamp' datatype='datetime' name='[timestamp]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_686236001920835588]' derivation='Year' name='[yr:Calculation_686236001920835588:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_686236001920901125]' derivation='Year' name='[yr:Calculation_686236001920901125:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]</column>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[yr:Calculation_686236001920901125:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <tooltip column='[federated.0haq5he1yvxmse17vun171y80wj3].[sum:Calculation_686236001920372737:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0haq5he1yvxmse17vun171y80wj3].[sum:reach:qk]</rows>
+        <cols>([federated.0haq5he1yvxmse17vun171y80wj3].[yr:Calculation_686236001920835588:ok] / [federated.0haq5he1yvxmse17vun171y80wj3].[mn:Calculation_686236001920835588:ok])</cols>
+      </table>
+      <simple-id uuid='{A27F9028-A54C-4DC3-BEAB-3EFCC027F46E}' />
+    </worksheet>
+    <worksheet name='SCATTER ENG COMMENT'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='posts_merged_tableau' name='federated.0haq5he1yvxmse17vun171y80wj3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0haq5he1yvxmse17vun171y80wj3'>
+            <column caption='ENGAGEMENT' datatype='integer' name='[Calculation_686236001920217088]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[like_count] + [comment_count] + [saves] + [shares]' />
+            </column>
+            <column caption='ENGAGEMENT RATE' datatype='real' default-format='p0.00%' name='[Calculation_686236001920372737]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [reach] &gt; 0 THEN&#13;&#10;     [Calculation_686236001920217088] / [reach]&#13;&#10;ELSE &#13;&#10;     0&#13;&#10;END' />
+            </column>
+            <column caption='POST DATE' datatype='date' name='[Calculation_686236001920835588]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE([timestamp])' />
+            </column>
+            <column caption='POST MONTH' datatype='datetime' name='[Calculation_686236001920901125]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATETRUNC(&apos;month&apos;, [Calculation_686236001920835588])' />
+            </column>
+            <column-instance column='[caption]' derivation='Attribute' name='[attr:caption:nk]' pivot='key' type='nominal' />
+            <column caption='Caption' datatype='string' name='[caption]' role='dimension' type='nominal' />
+            <column caption='Comment Count' datatype='integer' name='[comment_count]' role='measure' type='quantitative' />
+            <column caption='Like Count' datatype='integer' name='[like_count]' role='measure' type='quantitative' />
+            <column caption='Media Type' datatype='string' name='[media_type]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_686236001920372737]' derivation='None' name='[none:Calculation_686236001920372737:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[media_type]' derivation='None' name='[none:media_type:nk]' pivot='key' type='nominal' />
+            <column caption='Reach' datatype='integer' name='[reach]' role='measure' type='quantitative' />
+            <column caption='Saves' datatype='integer' name='[saves]' role='measure' type='quantitative' />
+            <column caption='Shares' datatype='integer' name='[shares]' role='measure' type='quantitative' />
+            <column-instance column='[comment_count]' derivation='Sum' name='[sum:comment_count:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[like_count]' derivation='Sum' name='[sum:like_count:qk]' pivot='key' type='quantitative' />
+            <column caption='Timestamp' datatype='datetime' name='[timestamp]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_686236001920901125]' derivation='Year' name='[yr:Calculation_686236001920901125:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]</column>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[yr:Calculation_686236001920901125:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]' />
+              <size column='[federated.0haq5he1yvxmse17vun171y80wj3].[none:Calculation_686236001920372737:qk]' />
+              <tooltip column='[federated.0haq5he1yvxmse17vun171y80wj3].[attr:caption:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0haq5he1yvxmse17vun171y80wj3].[sum:comment_count:qk]</rows>
+        <cols>([federated.0haq5he1yvxmse17vun171y80wj3].[yr:Calculation_686236001920901125:ok] * [federated.0haq5he1yvxmse17vun171y80wj3].[sum:like_count:qk])</cols>
+      </table>
+      <simple-id uuid='{9133AEF9-2558-427B-B04B-513346536A73}' />
+    </worksheet>
+    <worksheet name='Sheet 16'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{59368AFD-9EAC-4C13-B65D-16985AB73C48}' />
+    </worksheet>
+    <worksheet name='TIME HEAT MAP'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='posts_merged_tableau' name='federated.0haq5he1yvxmse17vun171y80wj3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0haq5he1yvxmse17vun171y80wj3'>
+            <column caption='ENGAGEMENT' datatype='integer' name='[Calculation_686236001920217088]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[like_count] + [comment_count] + [saves] + [shares]' />
+            </column>
+            <column caption='ENGAGEMENT RATE' datatype='real' default-format='p0.00%' name='[Calculation_686236001920372737]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [reach] &gt; 0 THEN&#13;&#10;     [Calculation_686236001920217088] / [reach]&#13;&#10;ELSE &#13;&#10;     0&#13;&#10;END' />
+            </column>
+            <column caption='POST DATE' datatype='date' name='[Calculation_686236001920835588]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE([timestamp])' />
+            </column>
+            <column caption='POST MONTH' datatype='datetime' name='[Calculation_686236001920901125]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATETRUNC(&apos;month&apos;, [Calculation_686236001920835588])' />
+            </column>
+            <column caption='DAY OF WEEK' datatype='string' name='[Calculation_686236001920987142]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='DATENAME(&apos;weekday&apos;, [Calculation_686236001920835588])' />
+            </column>
+            <column caption='HOUR OF DAY' datatype='integer' name='[Calculation_686236001921073159]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='DATEPART(&apos;hour&apos;, [timestamp])' />
+            </column>
+            <column-instance column='[Calculation_686236001920372737]' derivation='Avg' name='[avg:Calculation_686236001920372737:qk]' pivot='key' type='quantitative' />
+            <column caption='Comment Count' datatype='integer' name='[comment_count]' role='measure' type='quantitative' />
+            <column caption='Like Count' datatype='integer' name='[like_count]' role='measure' type='quantitative' />
+            <column caption='Media Type' datatype='string' name='[media_type]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_686236001920987142]' derivation='None' name='[none:Calculation_686236001920987142:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_686236001921073159]' derivation='None' name='[none:Calculation_686236001921073159:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[media_type]' derivation='None' name='[none:media_type:nk]' pivot='key' type='nominal' />
+            <column caption='Reach' datatype='integer' name='[reach]' role='measure' type='quantitative' />
+            <column caption='Saves' datatype='integer' name='[saves]' role='measure' type='quantitative' />
+            <column caption='Shares' datatype='integer' name='[shares]' role='measure' type='quantitative' />
+            <column caption='Timestamp' datatype='datetime' name='[timestamp]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_686236001920901125]' derivation='Year' name='[yr:Calculation_686236001920901125:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]</column>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[yr:Calculation_686236001920901125:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='cell-w' value='20' />
+            <format attr='cell-h' value='20' />
+            <format attr='cell' value='20' />
+            <format attr='cell-q' value='100' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0haq5he1yvxmse17vun171y80wj3].[avg:Calculation_686236001920372737:qk]' palette='purple_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.0haq5he1yvxmse17vun171y80wj3].[avg:Calculation_686236001920372737:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.7999999523162842' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0haq5he1yvxmse17vun171y80wj3].[none:Calculation_686236001920987142:nk]</rows>
+        <cols>[federated.0haq5he1yvxmse17vun171y80wj3].[none:Calculation_686236001921073159:qk]</cols>
+      </table>
+      <simple-id uuid='{79BF29F1-1673-46ED-958D-459B55697C39}' />
+    </worksheet>
+    <worksheet name='TOP 10 POST'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='posts_merged_tableau' name='federated.0haq5he1yvxmse17vun171y80wj3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0haq5he1yvxmse17vun171y80wj3'>
+            <column caption='ENGAGEMENT' datatype='integer' name='[Calculation_686236001920217088]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[like_count] + [comment_count] + [saves] + [shares]' />
+            </column>
+            <column caption='POST DATE' datatype='date' name='[Calculation_686236001920835588]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE([timestamp])' />
+            </column>
+            <column caption='POST MONTH' datatype='datetime' name='[Calculation_686236001920901125]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATETRUNC(&apos;month&apos;, [Calculation_686236001920835588])' />
+            </column>
+            <column-instance column='[caption]' derivation='Attribute' name='[attr:caption:nk]' pivot='key' type='nominal' />
+            <column caption='Caption' datatype='string' name='[caption]' role='dimension' type='nominal' />
+            <column caption='Comment Count' datatype='integer' name='[comment_count]' role='measure' type='quantitative' />
+            <column caption='Like Count' datatype='integer' name='[like_count]' role='measure' type='quantitative' />
+            <column caption='Media Type' datatype='string' name='[media_type]' role='dimension' type='nominal' />
+            <column-instance column='[media_type]' derivation='None' name='[none:media_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[post_id]' derivation='None' name='[none:post_id:nk]' pivot='key' type='nominal' />
+            <column caption='Post Id' datatype='string' name='[post_id]' role='dimension' type='nominal' />
+            <column caption='Saves' datatype='integer' name='[saves]' role='measure' type='quantitative' />
+            <column caption='Shares' datatype='integer' name='[shares]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_686236001920217088]' derivation='Sum' name='[sum:Calculation_686236001920217088:qk]' pivot='key' type='quantitative' />
+            <column caption='Timestamp' datatype='datetime' name='[timestamp]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_686236001920901125]' derivation='Year' name='[yr:Calculation_686236001920901125:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0haq5he1yvxmse17vun171y80wj3].[none:post_id:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Calculation_686236001920217088])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:post_id:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.0haq5he1yvxmse17vun171y80wj3].[none:post_id:nk]' direction='DESC' using='[federated.0haq5he1yvxmse17vun171y80wj3].[sum:Calculation_686236001920217088:qk]' />
+          <slices>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[none:post_id:nk]</column>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]</column>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[yr:Calculation_686236001920901125:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <tooltip column='[federated.0haq5he1yvxmse17vun171y80wj3].[attr:caption:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0haq5he1yvxmse17vun171y80wj3].[sum:Calculation_686236001920217088:qk]</rows>
+        <cols>[federated.0haq5he1yvxmse17vun171y80wj3].[none:post_id:nk]</cols>
+      </table>
+      <simple-id uuid='{B37815B1-725D-46D1-89DB-3E088797E49A}' />
+    </worksheet>
+    <worksheet name='TOP 10 VIRAL POST'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='posts_merged_tableau' name='federated.0haq5he1yvxmse17vun171y80wj3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0haq5he1yvxmse17vun171y80wj3'>
+            <column caption='POST DATE' datatype='date' name='[Calculation_686236001920835588]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATE([timestamp])' />
+            </column>
+            <column caption='POST MONTH' datatype='datetime' name='[Calculation_686236001920901125]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='DATETRUNC(&apos;month&apos;, [Calculation_686236001920835588])' />
+            </column>
+            <column caption='SAVE RATE' datatype='real' name='[Calculation_686236001959890952]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [reach] &gt; 0 THEN&#13;&#10;    [saves] / [reach]&#13;&#10;ELSE&#13;&#10;    0&#13;&#10;END' />
+            </column>
+            <column caption='SHARE RATE' datatype='real' name='[Calculation_686236001960091657]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [reach] &gt; 0 THEN&#13;&#10;    [shares] / [reach]&#13;&#10;ELSE&#13;&#10;    0&#13;&#10;END' />
+            </column>
+            <column caption='VIRALITY RATE' datatype='real' name='[Calculation_686236001960144906]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Calculation_686236001959890952] * 0.4) + ([Calculation_686236001960091657] * 0.6)' />
+            </column>
+            <column-instance column='[caption]' derivation='Attribute' name='[attr:caption:nk]' pivot='key' type='nominal' />
+            <column caption='Caption' datatype='string' name='[caption]' role='dimension' type='nominal' />
+            <column caption='Media Type' datatype='string' name='[media_type]' role='dimension' type='nominal' />
+            <column-instance column='[media_type]' derivation='None' name='[none:media_type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[post_id]' derivation='None' name='[none:post_id:nk]' pivot='key' type='nominal' />
+            <column caption='Post Id' datatype='string' name='[post_id]' role='dimension' type='nominal' />
+            <column caption='Reach' datatype='integer' name='[reach]' role='measure' type='quantitative' />
+            <column caption='Saves' datatype='integer' name='[saves]' role='measure' type='quantitative' />
+            <column caption='Shares' datatype='integer' name='[shares]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_686236001960144906]' derivation='Sum' name='[sum:Calculation_686236001960144906:qk]' pivot='key' type='quantitative' />
+            <column caption='Timestamp' datatype='datetime' name='[timestamp]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_686236001920901125]' derivation='Year' name='[yr:Calculation_686236001920901125:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0haq5he1yvxmse17vun171y80wj3].[none:post_id:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Calculation_686236001960144906])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:post_id:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[none:post_id:nk]</column>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]</column>
+            <column>[federated.0haq5he1yvxmse17vun171y80wj3].[yr:Calculation_686236001920901125:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <tooltip column='[federated.0haq5he1yvxmse17vun171y80wj3].[attr:caption:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0haq5he1yvxmse17vun171y80wj3].[none:post_id:nk]</rows>
+        <cols>[federated.0haq5he1yvxmse17vun171y80wj3].[sum:Calculation_686236001960144906:qk]</cols>
+      </table>
+      <simple-id uuid='{2773BFAC-3ECE-4839-AAAF-25DE41E2A8EC}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98002' id='5' param='vert' type-v2='layout-flow' w='99034' x='483' y='999'>
+            <zone h='6242' id='7' type-v2='title' w='99034' x='483' y='999'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='91760' id='6' type-v2='layout-basic' w='99034' x='483' y='7241' />
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='20474' id='8' name='REACH TREND OVER TIME' w='31623' x='1026' y='11486' />
+        <zone h='21723' id='9' name='ENG RATE /MEDIA TYPE' w='33253' x='37236' y='10737' />
+        <zone h='19850' id='10' name='TOP 10 POST' w='29692' x='483' y='35081' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{626AF09F-B616-4B9E-A5FA-6884EB4EE9C3}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 2'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98002' id='8' param='horz' type-v2='layout-flow' w='99046' x='477' y='999'>
+            <zone h='98002' id='3' param='horz' type-v2='layout-flow' w='89505' x='477' y='999'>
+              <zone h='98002' id='11' name='BEST HOUR' w='30381' x='477' y='999'>
+                <layout-cache minwidth='186' type-h='fixed' type-w='scalable' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='98002' id='6' name='SCATTER ENG COMMENT' w='29427' x='30858' y='999'>
+                <layout-cache minwidth='170' type-h='fixed' type-w='scalable' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='98002' id='5' name='TOP 10 POST' w='29697' x='60285' y='999'>
+                <layout-cache minheight='195' type-h='scalable' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98002' id='7' is-fixed='true' param='vert' type-v2='layout-flow' w='9541' x='89982' y='999'>
+              <zone h='8989' id='9' name='SCATTER ENG COMMENT' pane-specification-id='0' param='[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]' type-v2='color' w='9541' x='89982' y='999'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='16854' id='10' name='SCATTER ENG COMMENT' pane-specification-id='0' param='[federated.0haq5he1yvxmse17vun171y80wj3].[none:Calculation_686236001920372737:qk]' type-v2='size' w='9541' x='89982' y='9988'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{5B0966B0-931D-49B0-9FC7-829205B91724}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 3'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98004' id='3' param='vert' type-v2='layout-flow' w='97538' x='1231' y='998' />
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='33292' id='5' param='horz' type-v2='layout-flow' w='33231' x='5077' y='4115' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{8EB16ED7-EA74-49BF-921E-5296910EE339}' />
+    </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='4357' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='5187' />
+            <zone h='83506' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='15664'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point captured-sheet='' id='1' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{CEB4E17A-EC5E-48D6-8ACC-7BF0DA36096B}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='worksheet' name='REACH TREND OVER TIME'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6DE379EE-2929-490E-B1C3-CDB6AE3E8A22}' />
+    </window>
+    <window class='worksheet' name='ENG RATE /MEDIA TYPE'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{721CAF77-D54F-4F54-AC80-DA535C9D4169}' />
+    </window>
+    <window class='worksheet' name='TOP 10 POST'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{297C39A1-EBE1-4A0A-84C4-19417239920A}' />
+    </window>
+    <window class='worksheet' name='SCATTER ENG COMMENT'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0haq5he1yvxmse17vun171y80wj3].[none:Calculation_686236001920372737:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D90473B9-681B-4010-913A-E1EDA0131FE9}' />
+    </window>
+    <window class='worksheet' name='BEST DAY'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CAE20732-5F11-4E21-B05D-402E469278C8}' />
+    </window>
+    <window class='worksheet' name='BEST HOUR'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3D6864E3-B29C-4C9B-9A77-72262663FEE5}' />
+    </window>
+    <window class='worksheet' name='TIME HEAT MAP'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0haq5he1yvxmse17vun171y80wj3].[avg:Calculation_686236001920372737:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B2748A2B-F77A-4DFC-9ABB-1BE22DBDC610}' />
+    </window>
+    <window class='worksheet' name='TOP 10 VIRAL POST'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{499B3C8A-504E-4FCF-8361-FE48701DADE3}' />
+    </window>
+    <window class='worksheet' name='FUNNEL'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FB05654A-0674-4783-AF10-A36CC33D6ADD}' />
+    </window>
+    <window class='worksheet' name='MEDIA TYPE PERFORMANCE'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1B322A77-BE80-4824-8ECB-A2ACC2B86632}' />
+    </window>
+    <window class='worksheet' name='FOLLOW COVERSION RATE'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0haq5he1yvxmse17vun171y80wj3].[yr:Calculation_686236001920901125:ok]' type='filter' />
+            <card param='[federated.0haq5he1yvxmse17vun171y80wj3].[none:media_type:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{875B36BB-CD14-42EF-8397-CBC2E8D15F1F}' />
+    </window>
+    <window class='worksheet' name='REACH FORECAST'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0haq5he1yvxmse17vun171y80wj3].[none:Forecast Indicator:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{70A6BD20-5E2B-415B-A28E-76F841DF2A9E}' />
+    </window>
+    <window class='worksheet' name='ENGAGEMENT FORECAST'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0haq5he1yvxmse17vun171y80wj3].[none:Forecast Indicator:nk]' type='color' />
+            <card mode='type_in' param='[Parameters].[Parameter 1]' type='parameter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{37CD9160-988D-4137-9032-22964C0723AB}' />
+    </window>
+    <window class='worksheet' name='PROMOTION ROI'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='type_in' param='[Parameters].[Parameter 1]' type='parameter' />
+            <card pane-specification-id='0' param='[federated.0haq5he1yvxmse17vun171y80wj3].[sum:Calculation_686236001979064334:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{32859EC3-A5FE-4507-B04D-0AA3EBA2617C}' />
+    </window>
+    <window class='worksheet' name='PROMOTION PRIORITY SCORE'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0haq5he1yvxmse17vun171y80wj3].[max:Calculation_686236001980395535:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{02CBC50B-5665-4F37-88AA-AD1A648AEFCB}' />
+    </window>
+    <window class='worksheet' name='Sheet 16'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CEF78682-BE9D-476E-8380-719BE4D35700}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='ENG RATE /MEDIA TYPE'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='REACH TREND OVER TIME'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='TOP 10 POST'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='8' />
+      <simple-id uuid='{548E9154-96C5-4312-AC0B-F6EC9CED1033}' />
+    </window>
+    <window class='dashboard' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='BEST HOUR'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='SCATTER ENG COMMENT'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='TOP 10 POST'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='6' />
+      <simple-id uuid='{E75D0EE6-7CC7-4204-8A19-AC4684699CBD}' />
+    </window>
+    <window class='dashboard' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{C88422D6-B5B9-4EC8-A54C-32D609DDFA6B}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 3'>
+      <viewpoints />
+      <active id='5' />
+      <simple-id uuid='{B5C22167-8CB0-4B73-87BE-CA3FC8FFFCB8}' />
+    </window>
+  </windows>
+</workbook>
